@@ -1,0 +1,177 @@
+.benefits {
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  padding-top: 80px;
+}
+.contents {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex: 2;
+}
+.title1 {
+  flex: 1;
+  margin-left: 100px;
+  padding: 10px 0px;
+  font-size: 24px;
+  color: #001833;
+  font-family: "Rubik", sans-serif;
+}
+.title1 > h2 {
+  padding: 10px 0px;
+  font-weight: 700;
+  font-size: 36px;
+  font-family: "Rubik", sans-serif;
+}
+.heading {
+  padding: 10px 0px;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Rubik", sans-serif;
+  transition: all 0.5s ease;
+
+}
+.heading:hover {
+  color: rgb(255, 162, 0);
+  transition: all 0.5s ease;
+}
+.uses {
+  width: 40%;
+  height: 50%;
+  margin-top: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px 3px rgba(113,108,108,0.65);
+  -webkit-box-shadow: 0px 0px 4px 3px rgba(113,108,108,0.65);
+  -moz-box-shadow: 0px 0px 4px 3px rgba(113,108,108,0.65);
+}
+.uses:hover {
+
+  transition: all 0.5s ease;
+  transform:scale(1.1);
+  box-shadow: 0px 0px 6px 0px rgb(255, 162, 0);
+  -webkit-box-shadow: 0px 0px 6px 0px rgb(255, 162, 0);
+  -moz-box-shadow: 0px 0px 6px 0px rgb(255, 162, 0);
+}
+.uses > .text {
+  color: black;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.uses>div>img{
+  width: 10%;
+  margin-top: 10px;
+}
+
+.secondcontent {
+  margin-top: 50px;
+  font-family: "Raleway", sans-serif;
+}
+.secondcontent > h2 {
+  font-weight: 700;
+  font-family: "Rubik", sans-serif;
+  font-size: 36px;
+}
+h5 {
+  font-family: "Rubik", sans-serif;
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-size: large;
+}
+a > img {
+  padding-right: 30px;
+}
+.email,
+.mobile {
+  padding: 20px 0px;
+  margin-left: 180px;
+  transition: all 0.5s ease;
+
+}
+.email>a:hover,
+.mobile>a:hover{
+  transition: all 0.5s ease;
+  color: blue;
+}
+
+/*Responsiveness for mobile*/
+
+@media screen and (max-width: 700px) {
+  .benefits {
+    display: flex;
+    flex-direction: column;
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+  }
+  .contents {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2;
+  }
+  .title1 {
+    flex: 1;
+    margin-left: 20px;
+    padding: 10px 0px;
+    font-size: 20px;
+    color: #001833;
+    font-family: "Rubik", sans-serif;
+  }
+  .title1 > h2 {
+    padding: 10px 0px;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: "Rubik", sans-serif;
+  }
+  .heading {
+    padding: 10px 0px;
+    font-weight: 600;
+    font-weight: 700;
+  }
+  .uses {
+    width: 85%;
+    height: 50%;
+    margin-top: 20px;
+    padding-left: 10px;
+  }
+
+  .uses > .text {
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    padding: 5px;
+  }
+  .uses>div>img{
+    width: 10%;
+  }
+  .secondcontent {
+    margin-top: 50px;
+    font-family: "Raleway", sans-serif;
+  }
+  .secondcontent > h2 {
+    font-weight: 600;
+    padding: 10px 0px;
+    font-weight: 700;
+    font-size: 28px;
+    font-family: "Rubik", sans-serif;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 600;
+  }
+  a > img {
+    padding-right: 10px;
+  }
+  .email,
+  .mobile {
+    padding: 20px 0px;
+    margin-left: 5px;
+  }
+}

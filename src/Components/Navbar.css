@@ -1,0 +1,141 @@
+/*  NAVBAR FOR DESKTOP  */
+.navbar {
+  display: none;
+}
+.navbar1 {
+  position: fixed; /* Makes the navbar fixed at the top */
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: flex;
+  position: sticky;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+  margin: 0px 0px;
+  margin-top: 20px;
+  background: #f2f2f2;
+  border-radius: 0px;
+}
+.nav-item {
+  font-family: "Raleway", sans-serif;
+  color: black;
+  font-size: 15px;
+  font-weight: 400;
+}
+.nav-item:hover {
+  color: rgb(86, 86, 85);
+  border-radius: 0px;
+}
+
+.nav {
+  display: flex;
+  gap: 50px;
+}
+.logo > img {
+  width: 80px;
+}
+
+@media screen and (max-width: 700px) {
+  /*  NAVBAR FOR Mobile  */
+  .navbar1 {
+    position: fixed; /* Makes the navbar fixed at the top */
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: none;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin: 0px 0px;
+    margin-top: 0px;
+    background: #f2f2f2;
+    border-radius: 10px;
+  }
+  .emptynav {
+    display: none;
+  }
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+  }
+  .logo > img {
+    width: 80px;
+  }
+
+  .navbar {
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    background: rgba(255, 255, 255, 0.846);
+    backdrop-filter: blur(10px);
+    display: flex;
+    z-index: 9999;
+    width: 100%;
+  }
+
+  .container-fluid > img {
+    width: 20%;
+  }
+  .offcanvas {
+    margin-top: 0px;
+    height: fit-content;
+    backdrop-filter: blur(10px);
+  }
+  .offcanvas-header {
+    background-color: white;
+  }
+  .offcanvas-body {
+    background-color:white;
+  }
+  .offcanvas-header {
+    padding: 3px 20px 0px 4px;
+  }
+
+  li {
+    padding-top: 20px;
+    border-bottom: 1px solid rgb(233, 231, 231);
+  }
+}
+
+/* Responsive navbar for Tab */
+@media (min-width: 701px) and (max-width: 1024px) {
+  .navbar {
+    display: none;
+  }
+  .navbar1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: flex;
+    position: sticky;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    margin: 0px 60px;
+    margin-top: 20px;
+    background: #f2f2f2;
+    border-radius: 10px;
+  }
+  .nav-item {
+    font-family: "Raleway", sans-serif;
+    color: black;
+  }
+  .nav-item:hover {
+    color: rgb(255, 255, 0);
+  }
+
+  .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 15px;
+  }
+  .logo > img {
+    width: 80px;
+  }
+}

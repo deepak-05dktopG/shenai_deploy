@@ -1,0 +1,248 @@
+.footer {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  background-color: #D9D9D9;
+
+}
+.box1 {
+  flex: 1;
+  background-color: #D9D9D9;
+}
+
+.box1 > .image > img {
+  width: 30%;
+  height: 40%;
+}
+.box1 > .content {
+  margin: 0 50px;
+  font-family: "Raleway", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.box2 {
+  flex: 1;
+  background-color: #505050;
+}
+.rectangles {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: end;
+  float: right;
+  overflow: hidden;
+}
+.rectangle1 {
+  width: 250px;
+  height: 25px;
+  background-color: #D9D9D9;
+}
+.rectangle2 {
+  width: 250px;
+  height: 25px;
+  margin-left: 20%;
+  background-color:#D9D9D9;
+}
+.rectangle3 {
+  width: 250px;
+  height: 25px;
+  margin-left: 40%;
+  background-color:#D9D9D9;
+}
+.insidebox2 {
+  float: right;
+  margin-top: 20%;
+}
+.followus {
+  margin-top: 60%;
+  margin-left: 50%;
+  color:#0E1F51;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+.socialpages {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.fa-brands {
+  font-size: 50px;
+  width: 50px;
+  height: 40px;
+}
+a {
+  transition: 0.5s ease;
+  color: rgb(255, 255, 255);
+}
+.fa-linkedin:hover {
+  color: #0a66c2;
+  transition: 0.5s ease;
+}
+.fa-instagram:hover {
+  transition: 0.5s ease;
+  color: #cc2366;
+}
+.fa-facebook:hover {
+  transition: 0.5s ease;
+  color: #1877f2;
+}
+
+/* responsivness for mobile */
+@media screen and (max-width: 769px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+      }
+      .box1 {
+        height: 40vh;
+        background-color:  #D9D9D9;
+      }
+      
+      .box1 > .image > img {
+        width: 30%;
+        height: 40%;
+      }
+      .box1 > .content {
+        margin: 0px 25px 0px 40px;
+        font-family: "Raleway", sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 26px;
+        color: black;
+      }
+      
+      .box2 {
+        height: fit-content;
+        background-color: #505050;
+      }
+      .rectangles {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: end;
+        float: right;
+        overflow: hidden;
+      }
+      .rectangle1 {
+        width: 250px;
+        height: 25px;
+        background-color: #D9D9D9;
+      }
+      .rectangle2 {
+        width: 250px;
+        height: 25px;
+        margin-left: 20%;
+        background-color: #D9D9D9;
+      }
+      .rectangle3 {
+        width: 250px;
+        height: 25px;
+        margin-left: 40%;
+        background-color: #D9D9D9;
+      }
+      .insidebox2 {
+        float: right;
+        margin-top: 20%;
+      }
+      .followus {
+        margin-top: 60%;
+        margin-left: 50%;
+        color: #0E1F51;
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+      }
+      .socialpages {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .fa-brands {
+        font-size: 50px;
+        width: 50px;
+        height: 40px;
+        padding-bottom: 60px;
+      }
+}
+
+@media (min-width: 770px) and (max-width: 1024px) {
+  .footer {
+    display: flex;
+    height:fit-content;
+  }
+  .box1 {
+    height: fit-content;
+    background-color:  #D9D9D9;
+  }
+  
+  .box1 > .image > img {
+    width: 30%;
+    height: 40%;
+  }
+  .box1 > .content {
+    margin: 0px 25px 0px 40px;
+    padding-bottom:97px;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    color: black;
+  }
+  
+  .box2 {
+    height: fit-content;
+    background-color: #505050;
+  }
+  .rectangles {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: end;
+    float: right;
+    overflow: hidden;
+  }
+  .rectangle1 {
+    width: 250px;
+    height: 25px;
+    background-color: #D9D9D9;
+  }
+  .rectangle2 {
+    width: 250px;
+    height: 25px;
+    margin-left: 20%;
+    background-color: #D9D9D9;
+  }
+  .rectangle3 {
+    width: 250px;
+    height: 25px;
+    margin-left: 40%;
+    background-color: #D9D9D9;
+  }
+  .insidebox2 {
+    float: right;
+    margin-top: 20%;
+  }
+  .followus {
+    margin-top: 60%;
+    margin-left: 50%;
+    color: #0E1F51;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .socialpages {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .fa-brands {
+    font-size: 50px;
+    width: 50px;
+    height: 40px;
+    padding-bottom: 60px;
+  }
+}

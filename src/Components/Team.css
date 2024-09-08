@@ -1,0 +1,141 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.team{
+    padding-top: 0px;
+    font-family: "Raleway", sans-serif;
+    background-color: white;
+
+}
+.teamheading{
+    padding-top: 50px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.founder>.teamimg>img{
+    width: 60%;
+}
+.founder>.teamimg>img:hover{
+    width: 60%;
+}
+.teamimg>img{
+    width: 70%;
+}
+.founder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.founder>h1 ,.directers>h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #505050;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.directers{
+    margin: 50px 0px;
+}
+.directorsdetail{
+    display: flex;
+    justify-content: space-around;
+}
+.names{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #000000;
+}
+.role{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+}
+.footer{
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 700px) {
+    /*responsive for mobile*/
+
+
+    .team{
+        background-color: white;
+        padding-top: 80px;
+    }
+    .teamheading{
+        padding-top: 50px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .founder{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .founder>h1 ,.directers>h1{
+        font-size: 30px;
+        font-weight: 700;
+        color: #505050;
+        padding-top: 30px;
+    }
+    .founder>.teamimg>img{
+        width: 60%;
+    }
+    .teamimg>img{
+        width: 50%;
+    }
+    .directers{
+        margin: 20px 0px 0px 0px;
+    }
+    .directorsdetail{
+        display: flex;
+        padding: 20px 0px;
+        flex-direction: column;
+        gap: 40px;
+        justify-content: space-around;
+    }
+    .names{
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 36px;
+        color: #000000;
+    }
+    .role{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16px;
+    }
+    .footer{
+        margin-top: 0px;
+    }
+
+}
+
+
+/*responsive for tab */
+@media (min-width: 701px) and (max-width: 1024px){
+    *{
+        margin: 0;
+        padding: 0;
+        }
+        
+ 
+        .team{
+            padding-top: 80px;
+        }
+        .directers{
+            margin: 20px 0px;
+        }
+        .directorsdetail{
+            display: flex;
+            justify-content: space-around;
+        }
+        .footer{
+            margin-top: 50px;
+        }
+}

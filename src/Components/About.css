@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.body1 {
+  background-color: #f6f6f6;
+  height: fit-content;
+}
+.aboutUs {
+  font-size: 24px;
+  font-weight: 700;
+  height: fit-content;
+  color: #1e1e1e;
+}
+.aboutUsContent {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 700;
+  color: #505050;
+  height: fit-content;
+}
+.aboutus {
+  display: flex;
+  height: fit-content;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  padding-top: 80px;
+}
+.content {
+  line-height: 36px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.aboutus > .image1 > img {
+  width: px;
+  height: px;
+}
+.gipa {
+  font-size: 20px;
+  color: #0e1f51;
+  font-weight: 700;
+  line-height: 20px;
+  margin: 0;
+  background-color: white;
+}
+.cc {
+  width: fit-content;
+  transition: all 0.5s ease;
+}
+.cc:hover {
+    transition: all 0.5s ease;
+  box-shadow: 0px 0px 4px 1px rgba(0, 1, 123, 0.75);
+  -webkit-box-shadow: 0px 0px 4px 1px rgba(0, 1, 123, 0.75);
+  -moz-box-shadow: 0px 0px 4px 1px rgba(0, 1, 123, 0.75);
+}
+.subgipa {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+}
+.team1 {
+  margin-top: 0px;
+}
+
+@media screen and (max-width: 700px) {
+  /*responsive for mobile*/
+  .body1 {
+    height: fit-content;
+  }
+  .aboutus {
+    display: flex;
+    flex-direction: column;
+    height: 135vh;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+  }
+  .aboutUs {
+    font-size: 20px;
+    height: fit-content;
+    font-weight: 700;
+    color: #1e1e1e;
+  }
+  .aboutUsContent {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #505050;
+  }
+  .aboutus > .image1 > img {
+    width: 100%;
+    height: 300px;
+  }
+  .content {
+    line-height: 30px;
+  }
+  .gipa {
+    font-size: 17px;
+    color: #0e1f51;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 0;
+  }
+  .subgipa {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+  }
+}
+
+/*responsive for tab */
+@media (min-width: 701px) and (max-width: 1024px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .aboutus {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+  }
+  .aboutus > .image1 > img {
+    width: 400px;
+    height: 300px;
+  }
+}

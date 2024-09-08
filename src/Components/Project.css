@@ -1,0 +1,78 @@
+.projects {
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  padding-top: 80px;
+}
+.project1 {
+  flex: 1;
+  background-color: rgba(245, 245, 245, 0.822);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+  transition: all 0.5s ease;
+
+}
+.project2 {
+  flex: 1;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  padding: 20px;
+  transition: all 0.5s ease;
+  box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+}
+.project1:hover,.project2:hover{
+  transition: all 0.5s ease;
+  box-shadow: 0px 0px 6px 0px rgb(255, 162, 0);
+  -webkit-box-shadow: 0px 0px 6px 0px rgb(255, 162, 0);
+  -moz-box-shadow: 0px 0px 6px 0px rgb(255, 162, 0);
+}
+
+.title0 {
+  color: #0e1f51;
+  font-family: "outfit", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+}
+.title0:hover{
+  color: #0338d9;
+  transition: all 0.5s ease;
+
+}
+.dash1 {
+  width: 70px;
+  height: 8px;
+  border-radius: 100px;
+  margin-top: 5px;
+  background-color: rgb(145, 145, 145);
+}
+.dash2 {
+  width: 30px;
+  height: 8px;
+  border-radius: 100px;
+  margin-top: 5px;
+  background-color: rgb(145, 145, 145);
+}
+.aboutproject {
+  color: #0f0707;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  padding: 10px 10px;
+}
+
+/*Responsiveness for mobile*/
+
+@media screen and (max-width: 700px) {
+  .projects {
+    display: flex;
+    flex-direction: column;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 10px;
+  }
+}

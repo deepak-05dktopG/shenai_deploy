@@ -1,0 +1,225 @@
+.wwd {
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  padding-top: 80px;
+  background-color: #f6f6f6;
+}
+.empty {
+  flex: 1;
+}
+.main {
+  flex: 1;
+}
+.titlewwd {
+  font-weight: 700;
+  font-size: 24px;
+  color: #505050;
+}
+.headingwwd {
+  font-size: 40px;
+  font-weight: 700;
+  color: #1e1e1e;
+}
+.contentwwd {
+  color: black;
+  padding-right: 100px;
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 26px;
+}
+.visionandgoal {
+  margin: 10px 0px;
+  display: flex;
+  gap: 10px;
+}
+.vision,
+.goal {
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+  background-color:white;
+  border-radius: 10px;
+}
+.vision > .image,
+.goal > .image {
+  padding-right: 20px;
+}
+.text > .heading {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+}
+.content1 {
+  color: #0e1f51;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.service {
+  padding-top: 40px;
+  background-color: white;
+}
+.service > .title2 {
+  color: #505050;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.service > .bodycontent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+.bodycontent > .project0 {
+  width: 30%;
+  padding: 20px 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+  background-color: #f6f6f6;
+  box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+  transition: all 0.5s ease;
+}
+.bodycontent > .project0:hover {
+  width: 30%;
+  padding: 20px 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+  background-color: #f6f6f6;
+  transition: all 0.5s ease;
+  box-shadow: 0px 0px 6px 0px rgb(255, 162, 0);
+  -webkit-box-shadow: 0px 0px 6px 0px rgb(255, 162, 0);
+  -moz-box-shadow: 0px 0px 6px 0px rgb(255, 162, 0);
+}
+
+
+/*Responsiveness for mobile*/
+
+@media screen and (max-width: 700px) {
+  .wwd {
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    padding-top: 80px;
+  }
+  .empty {
+    flex: none;
+  }
+  .main {
+    flex: 1;
+  }
+  .titlewwd {
+    font-weight: 700;
+    font-size: larger;
+    opacity: 70%;
+    text-align: center;
+  }
+  .headingwwd {
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+  .contentwwd {
+    color: black;
+    padding: 0px 10px 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .visionandgoal {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .vision,
+  .goal {
+    display: flex;
+    align-items: center;
+  }
+  .vision > .image,
+  .goal > .image {
+    padding-right: 20px;
+  }
+  .text > .heading {
+    font-weight: bold;
+    margin: 0;
+  }
+  .content1 {
+    color: #0e1f51;
+  }
+  .service > .bodycontent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 10px;
+  }
+  .bodycontent > .project0 {
+    width: 100%;
+    padding: 20px 20px;
+  }
+}
+/*responsive for tab */
+@media (min-width: 701px) and (max-width: 1024px) {
+  .wwd {
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    padding-top: 80px;
+  }
+  .empty {
+    flex: none;
+  }
+  .main {
+    flex: 1;
+  }
+  .titlewwd {
+    font-weight: 700;
+    font-size: larger;
+    opacity: 70%;
+  }
+  .headingwwd {
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    padding-bottom: 10px;
+  }
+  .contentwwd {
+    color: black;
+  }
+  .visionandgoal {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .vision,
+  .goal {
+    display: flex;
+    align-items: center;
+  }
+  .vision > .image,
+  .goal > .image {
+    padding-right: 20px;
+  }
+  .text > .heading {
+    font-weight: bold;
+    margin: 0;
+  }
+  .content1 {
+    color: #0e1f51;
+  }
+  .service > .bodycontent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 40px;
+  }
+  .bodycontent > .project0 {
+    width: 40%;
+    padding: 20px 20px;
+  }
+}

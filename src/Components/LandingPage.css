@@ -1,0 +1,554 @@
+
+
+
+.software-shape {
+  position:relative ; /* Keeps the shape in place relative to the closest positioned ancestor */
+  /* Full height of the parent container */
+  top: 0;
+  bottom: 0;
+  opacity: 90%;
+  width: 60%;
+  left: -1px; /* Adjust as needed */
+  border-radius: 0px 0px 90px 0px;
+  background-color: rgb(45, 44, 44);
+  z-index: 1; /* Background color of the shape */
+  /* Lower z-index to place behind the heading */
+}
+.new {
+  position: absolute;/* Keeps the shape in place relative to the closest positioned ancestor */
+  height: 85%; /* Full height of the parent container */
+  top: 0;
+  z-index: 0;
+  bottom: 0;
+  opacity: 60%;
+  left: -1px; /* Adjust as needed */
+  border-radius: 0 0px 90px 0;
+  width: 100%; /* Width as specified */
+  /* Lower z-index to place behind the heading */
+  background-image: url('/src/imges/wallpaper.png'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%; /* Ensure the container takes full width */
+  height: 90vh;
+}
+.wallpaper > img {
+  height: 100vh;
+  /* Keeps the shape in place relative to the closest positioned ancestor */
+  /* Full height of the parent container */
+  top: 0;
+  bottom: 0;
+  opacity: 60%;
+  left: -1px; /* Adjust as needed */
+  width: 100%; /* Width as specified */
+  background-color: rgb(187, 187, 187); /* Background color of the shape */
+  z-index: 0; /* Lower z-index to place behind the heading */
+  opacity: 20%;
+}
+.lets-the {
+  position: relative; /* Ensure z-index is effective */
+  z-index: 3; /* Higher z-index to ensure it is on top */
+  margin: 0; /* Reset margin if needed */
+  padding: 200px 0px 200px 70px; /* Add padding if necessary for spacing */
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 78px;
+}
+.animate {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: fit-content;
+  margin: auto;
+}
+.animate > img {
+  width: 250px;
+  padding: 100px 0px;
+}
+.body {
+  margin-top: 50px;
+}
+
+.about-us {
+  display: flex;
+  margin-top: 10px;
+  padding: 40px 0px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: large;
+  word-spacing: 3px;
+}
+.about-us-img > img {
+  width: 550px;
+  height: 390px;
+}
+.whatwedo {
+  background-color: rgb(48, 47, 47);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #d7d7d7;
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 62px;
+  font-weight: 600;
+  word-spacing: 3px;
+  margin: 200px 150px;
+  padding: 80px 0px;
+  box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.65);
+  -webkit-box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.65);
+}
+.whatwecando1 {
+  margin-left: 100px;
+  font-weight: 600;
+  font-size: 60px;
+}
+.whatwecando2 {
+  width: 40%;
+  font-size: 25px;
+}
+.whatwecando2 > a {
+  text-decoration: none;
+  color: #dbdbdb;
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 33px;
+}
+.whatwecando2 > a:hover {
+  color: yellow;
+}
+.whatwecando2 > a > i {
+  margin-left: 50px;
+}
+
+.ourprojects {
+  padding-bottom: 200px;
+}
+.ourprojects > p {
+  margin: 0px;
+  font-weight: 600;
+  color: black;
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+}
+.feedback {
+  background-color: rgb(63, 63, 63);
+  color: whitesmoke;
+}
+.feedback > .heading {
+  font-size: 50px;
+  margin-left: 30px;
+  font-family: "Sedan SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.students {
+  background-color: white;
+  color: black;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  border-radius: 83% 17% 100% 0% / 0% 100% 0% 100%;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.title > .img {
+  width: 50%;
+  padding: 10px;
+  border-radius: 20%;
+}
+.title > .img > img {
+  width: 100%;
+  background: #000;
+  border-radius: 50%;
+  height: 200px;
+  box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.65);
+  -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.65);
+}
+
+.name {
+  font-size: 48px;
+  margin: 0px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  color: black;
+}
+.comment {
+  margin-top: 10px;
+  margin-left: 65px;
+  font-size: 20px;
+  font-weight: 300;
+  word-spacing: 4px;
+  font-family: "Raleway", sans-serif;
+}
+.card {
+  width: 1000px;
+}
+/* Responsiveness for mobile */
+
+@media screen and (max-width: 700px) {
+
+  .software-shape {
+    position:relative ; /* Keeps the shape in place relative to the closest positioned ancestor */
+    /* Full height of the parent container */
+    top: 0;
+    bottom: 0;
+    opacity: 90%;
+    width: 80%;
+    left: -1px; /* Adjust as needed */
+    border-radius: 0px 0px 90px 0px;
+    background-color: rgb(45, 44, 44);
+    z-index: 1; /* Background color of the shape */
+    /* Lower z-index to place behind the heading */
+  }
+  .new {
+    position: absolute;/* Keeps the shape in place relative to the closest positioned ancestor */
+    height: 65%; /* Full height of the parent container */
+    top: 0;
+    z-index: 0;
+    bottom: 0;
+    opacity: 60%;
+    left: -1px; /* Adjust as needed */
+    border-radius: 0 0px 50px 0;
+    width: 100%; /* Width as specified */
+    background-color: rgb(187, 187, 187); /* Background color of the shape */
+    /* Lower z-index to place behind the heading */
+  }
+  .wallpaper > img {
+    height: 100vh;
+    /* Keeps the shape in place relative to the closest positioned ancestor */
+    /* Full height of the parent container */
+    top: 0;
+    bottom: 0;
+    opacity: 60%;
+    left: -1px; /* Adjust as needed */
+    width: 100%; /* Width as specified */
+    background-color: rgb(187, 187, 187); /* Background color of the shape */
+    z-index: 0; /* Lower z-index to place behind the heading */
+    opacity: 20%;
+  }
+  .lets-the {
+    position: relative; /* Ensure z-index is effective */
+    z-index: 3; /* Higher z-index to ensure it is on top */
+    margin: 0; /* Reset margin if needed */
+    padding: 200px 0px 200px 40px; /* Add padding if necessary for spacing */
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 28px;
+  }
+  .animate {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: fit-content;
+    padding: 0px 0px 0px 0px;
+  }
+  .animate > img {
+    width: 180px;
+    padding: 50px 0px;
+    transition: all 0.2s ease;
+  }
+  .animate > img:hover {
+    width: 220px;
+    padding: 50px 0px;
+    transition: all 0.2s ease;
+  }
+
+  .whatwedo {
+    background-color: rgb(48, 47, 47);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(238, 239, 240);
+    border-radius: 10px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    word-spacing: 3px;
+    margin: 50px 10px;
+    padding: 50px 0px;
+  }
+  .whatwecando1 {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .whatwecando1 > p {
+    margin: 0px;
+  }
+  .whatwecando2 {
+    width: 100%;
+    margin: 0px 30px;
+    font-size: 22px;
+  }
+  .ourprojects > p {
+    margin: 0px;
+    font-weight: 800;
+    color: black;
+    font-size: large;
+    font-family: "Raleway", sans-serif;
+  }
+  .whatwecando2 > a {
+    text-decoration: none;
+    color: #dbdbdb;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 33px;
+  }
+
+  .feedback {
+    background-color: rgb(63, 63, 63);
+    color: whitesmoke;
+  }
+  .feedback > .heading {
+    font-size: 30px;
+    margin-left: 30px;
+  }
+  .students {
+    background-color: white;
+    color: black;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .title > .img {
+    width: 70%;
+    padding: 10px;
+    border-radius: 0%;
+  }
+  .title > .img > img {
+    width: 115px;
+    background: #000;
+    border-radius: 100%;
+    height: 130px;
+  }
+
+  .name {
+    font-size: 20px;
+    margin: 0px;
+    font-weight: 450;
+    font-family: "Raleway", sans-serif;
+  }
+  .comment {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: "Raleway", sans-serif;
+  }
+  .card {
+    width: 290px;
+  }
+  .arrowforfb {
+    font-size: 30px;
+    margin-left: 50px;
+    color: black;
+  }
+  .deepakcardcmt {
+    width: 270px;
+  }
+}
+
+/* Responsiveness for Tab */
+@media (min-width: 701px) and (max-width: 1024px) {
+  .software-shape {
+    position:relative ; /* Keeps the shape in place relative to the closest positioned ancestor */
+    /* Full height of the parent container */
+    top: 0;
+    bottom: 0;
+    opacity: 90%;
+    width: fit-content;
+    left: -1px; /* Adjust as needed */
+    border-radius: 0px 0px 90px 0px;
+    background-color: rgb(45, 44, 44);
+    z-index: 1; /* Background color of the shape */
+    /* Lower z-index to place behind the heading */
+  }
+  .new {
+    position: absolute;/* Keeps the shape in place relative to the closest positioned ancestor */
+    height: 70%; /* Full height of the parent container */
+    top: 0;
+    z-index: 0;
+    bottom: 0;
+    opacity: 60%;
+    left: -1px; /* Adjust as needed */
+    border-radius: 0 0px 90px 0;
+    width: 100%; /* Width as specified */
+    background-color: rgb(187, 187, 187); /* Background color of the shape */
+    /* Lower z-index to place behind the heading */
+  }
+  .wallpaper > img {
+    height: 100vh;
+    /* Keeps the shape in place relative to the closest positioned ancestor */
+    /* Full height of the parent container */
+    top: 0;
+    bottom: 0;
+    opacity: 60%;
+    left: -1px; /* Adjust as needed */
+    width: 100%; /* Width as specified */
+    background-color: rgb(187, 187, 187); /* Background color of the shape */
+    z-index: 0; /* Lower z-index to place behind the heading */
+    opacity: 20%;
+  }
+  .lets-the {
+    position: relative; /* Ensure z-index is effective */
+    z-index: 3; /* Higher z-index to ensure it is on top */
+    margin: 0; /* Reset margin if needed */
+    padding: 200px 0px 200px 70px; /* Add padding if necessary for spacing */
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 58px;
+  }
+  .animate {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: fit-content;
+    margin: 100px 0px 0px 0px;
+  }
+  .animate > img {
+    width: 150px;
+    padding: 100px 0px;
+  }
+  .body {
+    margin-top: 50px;
+  }
+
+  .about-us {
+    display: flex;
+    margin-top: 10px;
+    padding: 40px 0px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: large;
+    word-spacing: 3px;
+  }
+  .about-us-img > img {
+    width: 550px;
+    height: 390px;
+  }
+  .whatwedo {
+    background-color: rgb(48, 47, 47);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    border-radius: 10px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: large;
+    word-spacing: 3px;
+    margin: 200px 80px;
+    padding: 80px 0px;
+  }
+  .whatwecando1 {
+    margin-left: 100px;
+    font-weight: 600;
+    font-size: 40px;
+  }
+  .whatwecando2 {
+    width: 100%;
+    font-size: 25px;
+    margin: 0px 20px;
+  }
+  .whatwecando2 > a {
+    text-decoration: none;
+    color: rgb(190, 190, 190);
+  }
+  .whatwecando2 > a:hover {
+    color: yellow;
+  }
+  .whatwecando2 > a > i {
+    margin-left: 50px;
+  }
+
+  .ourprojects {
+    padding-bottom: 200px;
+  }
+  .ourprojects > p {
+    margin: 0px;
+    font-weight: 500;
+    color: black;
+    font-size: 40px;
+    font-family: "Raleway", sans-serif;
+  }
+  .feedback {
+    background-color: rgb(63, 63, 63);
+    color: whitesmoke;
+  }
+  .feedback > .heading {
+    font-size: 40px;
+    margin-left: 20px;
+  }
+  .students {
+    background-color: white;
+    color: black;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border-radius: 83% 17% 100% 0% / 0% 100% 0% 100%;
+  }
+  .title {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .title > .img {
+    width: 70%;
+    padding: 10px;
+    border-radius: 30%;
+  }
+  .title > .img > img {
+    width: 100%;
+    background: #000;
+    border-radius: 50%;
+    height: 150px;
+  }
+
+  .name {
+    font-size: 20px;
+    margin: 0px;
+    font-weight: 450;
+    font-family: "Raleway", sans-serif;
+  }
+  .comment {
+    margin-top: 10px;
+    margin-left: 65px;
+    font-size: 17px;
+    font-weight: 300;
+    word-spacing: 2px;
+    font-family: "Raleway", sans-serif;
+  }
+  .card {
+    width: 500px;
+  }
+}
