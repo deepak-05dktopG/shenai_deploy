@@ -17,11 +17,14 @@ import image8 from "/src/imges/nandhini.jpg";
 import image9 from "/src/imges/priya.jpg";
 import image10 from "/src/imges/tharika.jpg";
 
-import wallpaper from "/src/imges/wallpaper.png"
+import wallpaper from "/src/imges/wallpaper.png";
 
 import image11 from "/src/imges/landingpagewallpaper.jpg";
 
 function LandingPage() {
+
+  
+
   return (
     <div>
       <div
@@ -33,49 +36,22 @@ function LandingPage() {
         <div className="landingpage "></div>
 
         <div className="">
-          <div  className="software-shape">
-            <p
-              data-aos="fade-right"
-              data-aos-offset="0"
-              data-aos-delay="50"
-              data-aos-duration="1000"
-              data-aos-easing="ease-in-out"
-              data-aos-once="false"
-              data-aos-anchor-placement="top-center"
-              class="lets-the"
-            >
-              <small> let's the </small>
+          <div className="software-shape">
+            <p data-aos="fade-down" data-aos-delay="400" class="lets-the">
+              <small > let's the </small>
               <br />
               <small> innovation speaks!</small>
             </p>
           </div>
 
-          <div
-            data-aos="fade-down"
-            data-aos-offset="0"
-            data-aos-delay="0"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-once="false"
-            className="new"
-          ></div>
+          <div data-aos="fade-down"  data-aos-offset="0" className="new"></div>
         </div>
       </div>
 
-      <div className="body bg-white">
+      <div data-aos="zoom-in" className="body bg-white">
         {/* This is a image scroll*/}
         <div className="">
-          <marquee
-            data-aos="zoom-in"
-            data-aos-offset="0"
-            data-aos-delay="0"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-once="false"
-            data-aos-anchor-placement="top-center"
-            behavior="alternate"
-            direction=""
-          >
+          <marquee behavior="alternate" direction="">
             <div className="animate gap-5">
               <img src={image1} alt="#" />
               <img src={image2} alt="#" />
@@ -98,37 +74,13 @@ function LandingPage() {
         </div>
         {/* This is what we can do section*/}
 
-        <div
-          className="whatwedo"
-          data-aos="zoom-in"
-          data-aos-offset="0"
-          data-aos-delay="0"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
-          data-aos-once="false"
-        >
-          <div
-            data-aos="fade-right"
-            data-aos-offset="0"
-            data-aos-delay="200"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-once="false"
-            className="whatwecando1"
-          >
+        <div className="whatwedo">
+          <div data-aos="zoom-in-right" className="whatwecando1">
             <p>See what we can</p>
             <p>do for you</p>
           </div>
-          <span
-            data-aos="fade-right"
-            data-aos-offset="0"
-            data-aos-delay="190"
-            data-aos-duration="5000"
-            data-aos-easing="ease-in-out"
-            data-aos-once="false"
-            className="whatwecando2"
-          >
-            <Link to="project">
+          <span data-aos="fade-right" className="whatwecando2">
+            <Link  to="project">
               Projects <i class="fa-solid fa-arrow-right"></i>
             </Link>
             <hr />
@@ -142,31 +94,13 @@ function LandingPage() {
             <hr />
           </span>
         </div>
-        <div
-          data-aos="zoom-in"
-          data-aos-offset="0"
-          data-aos-delay="0"
-          data-aos-duration="5000"
-          data-aos-easing="ease-in-out"
-          data-aos-once="false"
-          className="ourprojects text-center"
-        >
+        <div className="ourprojects text-center">
           <p>Our</p>
           <p>Upcoming Project</p>
         </div>
 
         <div className="feedback">
-          <p
-            data-aos="zoom-in-right"
-            data-aos-offset="0"
-            data-aos-delay="0"
-            data-aos-duration="5000"
-            data-aos-easing="ease-in-out"
-            data-aos-once="false"
-            className="heading"
-          >
-            FEEDBACK
-          </p>
+          <p data-aos="zoom-in-down" className="heading">FEEDBACK</p>
           <div className="students">
             <p className="m-0 p-0 d-flex justify-content-center">
               <button
@@ -177,27 +111,11 @@ function LandingPage() {
                 aria-controls="collapseWidthExample"
               >
                 <div className="title ">
-                  <div
-                    data-aos="flip-right"
-                    data-aos-offset="0"
-                    data-aos-delay="0"
-                    data-aos-duration="5000"
-                    data-aos-easing="ease-in-out"
-                    data-aos-once="false"
-                    className="img"
-                  >
+                  <div data-aos="flip-right" className="img">
                     <img src={image6} alt="#" />
                   </div>
-                  <div
-                    data-aos="fade-up-right"
-                    data-aos-offset="0"
-                    data-aos-delay="0"
-                    data-aos-duration="5000"
-                    data-aos-easing="ease-in-out"
-                    data-aos-once="false"
-                    className="name"
-                  >
-                    Deepakkumar{" "}
+                  <div data-aos="fade-up-right" className="name">
+                    Deepakkumar
                     <b className="arrowforfb m-3">
                       <i class="fa-solid fa-arrow-right"></i>
                     </b>
@@ -232,26 +150,10 @@ function LandingPage() {
                 aria-controls="collapseWidthExample"
               >
                 <div className="title ">
-                  <div
-                    data-aos="flip-left"
-                    data-aos-offset="0"
-                    data-aos-delay="0"
-                    data-aos-duration="5000"
-                    data-aos-easing="ease-in-out"
-                    data-aos-once="false"
-                    className="img"
-                  >
+                  <div data-aos="flip-left" className="img">
                     <img src={image7} alt="#" />
                   </div>
-                  <div
-                    data-aos="fade-up-right"
-                    data-aos-offset="0"
-                    data-aos-delay="0"
-                    data-aos-duration="5000"
-                    data-aos-easing="ease-in-out"
-                    data-aos-once="false"
-                    className="name"
-                  >
+                  <div data-aos="fade-up-left" className="name">
                     Prawinkumar
                     <b className="arrowforfb m-3">
                       <i class="fa-solid fa-arrow-right"></i>
@@ -284,26 +186,10 @@ function LandingPage() {
                 aria-controls="collapseWidthExample"
               >
                 <div className="title">
-                  <div
-                    data-aos="flip-right"
-                    data-aos-offset="0"
-                    data-aos-delay="0"
-                    data-aos-duration="5000"
-                    data-aos-easing="ease-in-out"
-                    data-aos-once="false"
-                    className="img"
-                  >
+                  <div data-aos="flip-right" className="img">
                     <img src={image9} alt="#" />
                   </div>
-                  <div
-                    data-aos="fade-up-right"
-                    data-aos-offset="0"
-                    data-aos-delay="0"
-                    data-aos-duration="5000"
-                    data-aos-easing="ease-in-out"
-                    data-aos-once="false"
-                    className="name"
-                  >
+                  <div data-aos="fade-up-right" className="name">
                     Priyadharshini.R
                     <b className="arrowforfb m-3">
                       <i class="fa-solid fa-arrow-right"></i>
@@ -336,26 +222,10 @@ function LandingPage() {
                 aria-controls="collapseWidthExample"
               >
                 <div className="title ">
-                  <div
-                    data-aos="flip-left"
-                    data-aos-offset="0"
-                    data-aos-delay="0"
-                    data-aos-duration="5000"
-                    data-aos-easing="ease-in-out"
-                    data-aos-once="false"
-                    className="img"
-                  >
+                  <div data-aos="flip-left" className="img">
                     <img src={image8} alt="#" />
                   </div>
-                  <div
-                    data-aos="fade-up-right"
-                    data-aos-offset="0"
-                    data-aos-delay="0"
-                    data-aos-duration="5000"
-                    data-aos-easing="ease-in-out"
-                    data-aos-once="false"
-                    className="name"
-                  >
+                  <div data-aos="fade-up-left" className="name">
                     Nandhini.S.M
                     <b className="arrowforfb m-3">
                       <i class="fa-solid fa-arrow-right"></i>
@@ -388,26 +258,10 @@ function LandingPage() {
                 aria-controls="collapseWidthExample"
               >
                 <div className="title">
-                  <div
-                    data-aos="flip-right"
-                    data-aos-offset="0"
-                    data-aos-delay="0"
-                    data-aos-duration="5000"
-                    data-aos-easing="ease-in-out"
-                    data-aos-once="false"
-                    className="img"
-                  >
+                  <div data-aos="flip-right" className="img">
                     <img src={image10} alt="#" />
                   </div>
-                  <div
-                    data-aos="fade-up-right"
-                    data-aos-offset="0"
-                    data-aos-delay="0"
-                    data-aos-duration="5000"
-                    data-aos-easing="ease-in-out"
-                    data-aos-once="false"
-                    className="name"
-                  >
+                  <div data-aos="fade-up-right" className="name">
                     Tharikaa.L.S
                     <b className="arrowforfb m-3">
                       <i class="fa-solid fa-arrow-right"></i>

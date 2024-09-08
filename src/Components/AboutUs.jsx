@@ -10,9 +10,8 @@ function AboutUs() {
       <div className="container about-us">
             <div data-aos="zoom-in"
     data-aos-offset="0"
-    data-aos-delay="0"
+    data-aos-delay="200"
     data-aos-duration="5000"
-    data-aos-easing="ease-in-out"
     data-aos-once="false"
     className="about-us-img ">
               <img src={about} alt="#" />

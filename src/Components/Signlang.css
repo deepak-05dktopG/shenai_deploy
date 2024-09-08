@@ -1,3 +1,7 @@
+.delete_extra_space{
+  overflow-x: hidden;
+  scrollbar-width: none;
+}
 .signlang {
   color: white;
   background-color: black;

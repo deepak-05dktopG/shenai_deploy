@@ -3,6 +3,10 @@
   font-family: "Raleway", sans-serif;
   padding-top: 80px;
 }
+.delete_extra_space{
+  overflow-x: hidden;
+  scrollbar-width: none;
+}
 .contents {
   display: flex;
   flex-wrap: wrap;

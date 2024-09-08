@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+.delete_extra_space{
+  overflow-x: hidden;
+  scrollbar-width: none;
+}
 .body1 {
   background-color: #f6f6f6;
   height: fit-content;

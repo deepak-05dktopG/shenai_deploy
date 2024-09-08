@@ -62,6 +62,7 @@ function Navbar() {
             alt="#"
           />
           <button
+            data-aos="zoom-in-left"
             className="navbar-toggler"
             type="button"
             data-bs-toggle="offcanvas"
@@ -161,9 +162,15 @@ function Navbar() {
                   </NavLink>
                 </li>
                 <li className="d-flex justify-content-around border-bottom-0">
-                  <a href="#"><i class="fa-brands fa-facebook "></i></a>
-                  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="#">
+                    <i class="fa-brands fa-facebook "></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -177,6 +184,7 @@ function Navbar() {
           <NavLink
             style={navlink}
             to="/"
+            data-aos="fade-down"
             className="nav-item text-decoration-none"
           >
             Home
@@ -184,6 +192,8 @@ function Navbar() {
           <NavLink
             style={navlink}
             to="about"
+            data-aos="fade-down"
+            data-aos-delay="100"
             className="nav-item text-decoration-none"
           >
             About
@@ -191,6 +201,8 @@ function Navbar() {
           <NavLink
             style={navlink}
             to="project"
+            data-aos="fade-down"
+            data-aos-delay="300"
             className="nav-item text-decoration-none"
           >
             Project
@@ -198,6 +210,8 @@ function Navbar() {
           <NavLink
             style={navlink}
             to="service"
+            data-aos="fade-down"
+            data-aos-delay="500"
             className="nav-item text-decoration-none"
           >
             Service
@@ -205,6 +219,8 @@ function Navbar() {
           <NavLink
             style={navlink}
             to="team"
+            data-aos="fade-down"
+            data-aos-delay="700"
             className="nav-item text-decoration-none"
           >
             Team
@@ -212,6 +228,8 @@ function Navbar() {
           <NavLink
             style={navlink}
             to="careers"
+            data-aos="fade-down"
+            data-aos-delay="900"
             className="nav-item text-decoration-none"
           >
             Careers
@@ -219,12 +237,14 @@ function Navbar() {
           <NavLink
             style={navlink}
             to="contact"
+            data-aos="fade-down"
+            data-aos-delay="1100"
             className="nav-item text-decoration-none"
           >
             Contact
           </NavLink>
         </div>
-        <div className="logo">
+        <div data-aos="flip-left" data-aos-delay="1200" className="logo">
           <img src={logo} alt="#" />
         </div>
       </div>
@@ -241,7 +261,6 @@ function Navbar() {
         <Route path="/project/signlang" element={<Signlang />} />
         <Route path="/project/servingrobot" element={<Servingrobot />} />
         <Route path="/servingrobot" element={<Servingrobot />} />
-
       </Routes>
     </Router>
   );

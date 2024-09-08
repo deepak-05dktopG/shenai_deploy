@@ -1,10 +1,31 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import "./Contact.css";
 import Footer from "./Footer";
+import 'aos/dist/aos.css';
+import AOS from "aos";
 function Contact() {
+  
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Global duration for all animations
+      offset: 0,    // Global offset for all animations
+      anchorPlacement: 'bottom-bottom', // Global anchor placement for all animations
+    });  }, []);
+  useEffect(() => {
+    // Select all elements with data-aos attribute
+    const aosElements = document.querySelectorAll('[data-aos]');
+    
+    // Loop through and add a class to the parent
+    aosElements.forEach((element) => {
+      const parent = element.parentElement;
+      if (parent) {
+        parent.classList.add('delete_extra_space');
+      }
+    });
+  }, []); 
   const [result, setResult] = useState("");
 
- /* const handleSubmit = (event) => {
+  /* const handleSubmit = (event) => {
     event.preventDefault(); // Prevent the default form submission behavior
 
     // Access the form fields using document.getElementById
@@ -36,12 +57,13 @@ function Contact() {
     <div>
       <div className="contact">
         <div className="headings text-center">
-          <p>\Get In Touch\</p>
-          <h1>Hey! Let's Talk</h1>
+          <p data-aos="fade-down">\Get In Touch\</p>
+          <h1 data-aos="zoom-out">Hey! Let's Talk</h1>
         </div>
 
         <div className="bodycontact">
           <form
+            data-aos="zoom-out"
             action="https://api.web3forms.com/submit"
             method="POST"
             class="was-validated"
@@ -52,6 +74,8 @@ function Contact() {
               value="bf09f79e-4888-4ddb-af54-5b31e0dc1fe4"
             />
             <input
+              data-aos="fade-right"
+              data-aos-delay="100"
               className="form-control valid "
               type="text"
               id="name"
@@ -60,16 +84,20 @@ function Contact() {
               required
             />
             <input
+              data-aos-delay="250"
+              data-aos="fade-right"
               className="form-control"
               type="number"
               id="phone"
               name="phone"
-               minlength="10"
-               maxlength="14"
+              minlength="10"
+              maxlength="14"
               placeholder="Phone"
               required
             />
             <input
+            data-aos-delay="400"
+              data-aos="fade-right"
               className="form-control"
               type="email"
               id="email"
@@ -78,6 +106,8 @@ function Contact() {
               required
             />
             <textarea
+            data-aos-delay="550"
+              data-aos="fade-right"
               className="form-control"
               name="message"
               id="message"
@@ -85,6 +115,8 @@ function Contact() {
               required
             ></textarea>
             <button
+            data-aos-delay="700"
+              data-aos="fade-left"
               className="btn btn-outline-dark"
               type="submit"
             >
@@ -93,14 +125,14 @@ function Contact() {
           </form>
 
           <div className="sociallinks">
-            <a href="https://www.facebook.com/" >
-            <i class="fa-brands fa-linkedin"></i> Shenai Private solutions
+            <a  data-aos="zoom-out" href="https://www.facebook.com/">
+              <i data-aos="zoom-in" class="fa-brands fa-linkedin pb-lg-5"></i> Shenai Private solutions
             </a>
-            <a href="https://www.facebook.com/">
-            <i class="fa-brands fa-instagram"></i>Shenai_off
+            <a  data-aos="zoom-out" href="https://www.facebook.com/">
+              <i  data-aos="zoom-in" class="fa-brands fa-instagram pb-lg-5"></i>Shenai_off
             </a>
-            <a href="https://www.facebook.com/">
-            <i class="fa-brands fa-facebook"></i>Shen ai
+            <a data-aos="zoom-out" href="https://www.facebook.com/">
+              <i  data-aos="zoom-in" class="fa-brands fa-facebook pb-lg-5"></i>Shen ai
             </a>
           </div>
         </div>

@@ -1,3 +1,7 @@
+.delete_extra_space{
+  overflow-x: hidden;
+  scrollbar-width: none;
+}
 .bodysr {
   padding-top: 80px;
   background-color: black;

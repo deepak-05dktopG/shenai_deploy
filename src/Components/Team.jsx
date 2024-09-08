@@ -14,46 +14,46 @@ function Team() {
   return (
     <div>
       <div className="team">
-        <div className="text-center teamheading">\Team\</div>
+        <div data-aos="fade-down" className="text-center teamheading">\Team\</div>
         <div className="founder">
-          <h1>Our CEO & Founder</h1>
-          <div className="teamimg text-center">
+          <h1 data-aos="fade-right" >Our CEO & Founder</h1>
+          <div data-aos="zoom-in-up" className="teamimg text-center">
             <img src={senthamarai} alt="#" />
           </div>
-          <div className="names">Mrs.Senthamarai.M</div>
-          <div className="role">FOUNDER & CEO</div>
+          <div data-aos="fade-left" className="names">Mrs.Senthamarai.M</div>
+          <div data-aos="fade-left" data-aos-delay="300" className="role">FOUNDER & CEO</div>
         </div>
 
         <div className="directers">
-          <h1 className="text-center">Our Directors</h1>
+          <h1 data-aos="fade-right"  className="text-center">Our Directors</h1>
           <div className=" directorsdetail">
             <div className="text-center">
-              <div className="teamimg">
+              <div data-aos="zoom-in-up"  className="teamimg">
                 <img src={sandeep} alt="#" />
               </div>
-              <div className="names">Mr.Sandeep.S.D</div>
-              <div className="role">DIRECTOR - PLANNING</div>
+              <div data-aos="fade-left" className="names">Mr.Sandeep.S.D</div>
+              <div data-aos="fade-left" data-aos-delay="300" className="role">DIRECTOR - PLANNING</div>
             </div>
             <div className="text-center">
-              <div className="teamimg">
+              <div data-aos="zoom-in-up"  className="teamimg">
                 <img src={ritik} alt="#" />
               </div>
-              <div className="names">Mr.Rithik.P</div>
-              <div className="role">DIRECTOR - DESIGN</div>
+              <div data-aos="fade-left" className="names">Mr.Rithik.P</div>
+              <div data-aos="fade-left" data-aos-delay="300" className="role">DIRECTOR - DESIGN</div>
             </div>
             <div className="text-center">
-              <div className="teamimg">
+              <div data-aos="zoom-in-up"  className="teamimg">
                 <img src={sudhakar} alt="#" />
               </div>
-              <div className="names">Mr.Sudhaker.D</div>
-              <div className="role">DIRECTOR - IMPLEMENTATION</div>
+              <div data-aos="fade-left" className="names">Mr.Sudhaker.D</div>
+              <div data-aos="fade-left" data-aos-delay="300" className="role">DIRECTOR - IMPLEMENTATION</div>
             </div>
             <div className="text-center">
-              <div className="teamimg">
+              <div data-aos="zoom-in-up"  className="teamimg">
                 <img src={sreenithin} alt="#" />
               </div>
-              <div className="names">Mr.ShreeNithin.P</div>
-              <div className="role">DIRECTOR - MARKETING</div>
+              <div data-aos="fade-left" className="names">Mr.ShreeNithin.P</div>
+              <div data-aos="fade-left" data-aos-delay="300" className="role">DIRECTOR - MARKETING</div>
             </div>
           </div>
         </div>

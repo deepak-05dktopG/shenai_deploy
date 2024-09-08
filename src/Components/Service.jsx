@@ -1,7 +1,9 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./Service.css";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
+import 'aos/dist/aos.css';
+import AOS from "aos";
 
 //import images
 import ourvision from "/src/imges/ourvision.png"
@@ -12,16 +14,35 @@ import dsprojects from "/src/imges/dsprojects.png"
 import signlangrec from "/src/imges/signlangrecon.png"
 
 function Service() {
+  
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Global duration for all animations
+      offset: 0,    // Global offset for all animations
+      anchorPlacement: 'bottom-bottom', // Global anchor placement for all animations
+    });  }, []);
+  useEffect(() => {
+    // Select all elements with data-aos attribute
+    const aosElements = document.querySelectorAll('[data-aos]');
+    
+    // Loop through and add a class to the parent
+    aosElements.forEach((element) => {
+      const parent = element.parentElement;
+      if (parent) {
+        parent.classList.add('delete_extra_space');
+      }
+    });
+  }, []); 
   return (
     <div>
       <div className="wwd">
         <div className="empty"></div>
         <div className="main container">
-          <div className="titlewwd">\What We Do\</div>
-          <div className="headingwwd container">
+          <div data-aos="fade-down" className="titlewwd">\What We Do\</div>
+          <div data-aos="fade-left" className="headingwwd container">
             We Develope Product That People Love to Use.
           </div>
-          <div className="contentwwd ">
+          <div data-aos="zoom-in-left" className="contentwwd ">
             At SHENai, we develop products that people love to use. Our focus is
             on creating innovative and intuitive solutions that not only meet
             but exceed user expectations. By leveraging cutting edge AI
@@ -31,8 +52,8 @@ function Service() {
             solutions that are not only functional but also engaging and
             enjoyable, ensuring our products stand out in a crowded marketplace.
           </div>
-          <div className="visionandgoal">
-            <div className="vision">
+          <div  className="visionandgoal">
+            <div data-aos="fade-left" className="vision">
               <div className="image">
                 <img src={ourvision} alt="#" />
               </div>
@@ -43,7 +64,7 @@ function Service() {
                 </p>
               </div>
             </div>
-            <div className="goal">
+            <div data-aos="fade-right" className="goal">
               <div className="image">
                 <img src={ourgoal} alt="#" />
               </div>
@@ -59,51 +80,51 @@ function Service() {
       </div>
 
       <div className="service">
-        <div className="title2 text-center">\Services\</div>
-        <h2 className="heading text-center">Our Expertice</h2>
+        <div data-aos="zoom-in" className="title2 text-center">\Services\</div>
+        <h2 data-aos="fade-left" className="heading text-center">Our Expertice</h2>
 
         <div className="bodycontent">
-          <div className="project0">
-            <div>
+          <div data-aos="zoom-in" className="project0">
+            <div data-aos="flip-right">
               <img src={img1} alt="#" />
             </div>
-            <p className="title0">Ai based Web browser</p>
+            <p data-aos="fade-left" className="title0">Ai based Web browser</p>
             <div className="d-flex gap-2">
-              <p className="dash1"></p>
-              <p className="dash2"></p>
+              <p data-aos="fade-left"  className="dash1"></p>
+              <p data-aos="fade-left"  className="dash2"></p>
             </div>
-            <div className="aboutproject">
+            <div data-aos="zoom-in-left"  className="aboutproject">
               II - bades web browsing leverages artificial intelligence to
               deliver more accurate and personalized search results.
             </div>
           </div>
 
-          <div className="project0">
-            <div>
+          <div data-aos="zoom-in" className="project0">
+            <div data-aos="flip-right">
               <img src={dsprojects} alt="#" />
             </div>
-            <p className="title0">Data science projects</p>
+            <p data-aos="fade-left"  className="title0">Data science projects</p>
             <div className="d-flex gap-2">
-              <p className="dash1"></p>
-              <p className="dash2"></p>
+              <p data-aos="fade-left"  className="dash1"></p>
+              <p data-aos="fade-left"  className="dash2"></p>
             </div>
-            <div className="aboutproject">
+            <div data-aos="zoom-in-left" className="aboutproject">
               Data science projects include cutomer churn prediction,
               recommendation systems, sentiment analysis, fraud detection, image
               classification, demand forecasting and health diagnotics.
             </div>
           </div>
 
-          <div className="project0">
-            <div>
+          <div data-aos="zoom-in" className="project0">
+            <div data-aos="flip-right">
               <img src={img2} alt="#" />
             </div>
-            <p className="title0">Chatbot</p>
+            <p data-aos="fade-left"  className="title0">Chatbot</p>
             <div className="d-flex gap-2">
-              <p className="dash1"></p>
-              <p className="dash2"></p>
+              <p data-aos="fade-left"  className="dash1"></p>
+              <p data-aos="fade-left"  className="dash2"></p>
             </div>
-            <div className="aboutproject">
+            <div data-aos="zoom-in-left" className="aboutproject">
               At SHENai, we develop advanced chatbots tailored to meet the
               specific needs of our clients. Our AI-powered chatbots leverage
               natural language processing(NlL) and machine learning to provide
@@ -114,17 +135,17 @@ function Service() {
             </div>
           </div>
 
-          <div className="project0">
-            <div>
+          <div data-aos="zoom-in" className="project0">
+            <div data-aos="flip-right">
               <img src={signlangrec} alt="#" />
             </div>
             <Link to="signlang">
-              <p className="title0">Sign language recognition</p>
+              <p data-aos="fade-left"  className="title0">Sign language recognition</p>
               <div className="d-flex gap-2">
-                <p className="dash1"></p>
-                <p className="dash2"></p>
+                <p data-aos="fade-left"  className="dash1"></p>
+                <p data-aos="fade-left"  className="dash2"></p>
               </div>
-              <div className="aboutproject">
+              <div data-aos="zoom-in-left" className="aboutproject">
                 Sign language is a visual-gestural form of communication used by
                 deaf and hard-of-hearing individuals. by SHENai
               </div>
