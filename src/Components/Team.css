@@ -2,6 +2,10 @@
 margin: 0;
 padding: 0;
 }
+.delete_extra_space{
+    overflow-x: hidden;
+    scrollbar-width: none;
+  }
 
 .team{
     padding-top: 0px;

@@ -1,6 +1,8 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./Team.css";
 import Footer from "./Footer";
+import 'aos/dist/aos.css';
+import AOS from "aos";
 
 //image import
 import senthamarai from "/src/imges/senthamarai.png"
@@ -11,6 +13,25 @@ import ritik from "/src/imges/ritik.png"
 
 
 function Team() {
+  
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Global duration for all animations
+      offset: 0,    // Global offset for all animations
+      anchorPlacement: 'bottom-bottom', // Global anchor placement for all animations
+    });  }, []);
+  useEffect(() => {
+    // Select all elements with data-aos attribute
+    const aosElements = document.querySelectorAll('[data-aos]');
+    
+    // Loop through and add a class to the parent
+    aosElements.forEach((element) => {
+      const parent = element.parentElement;
+      if (parent) {
+        parent.classList.add('delete_extra_space');
+      }
+    });
+  }, []); 
   return (
     <div>
       <div className="team">
