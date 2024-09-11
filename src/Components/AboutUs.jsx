@@ -7,6 +7,7 @@ function AboutUs() {
   
   return (
     <div>
+      
       <div className="container about-us">
             <div data-aos="zoom-in"
     data-aos-offset="0"

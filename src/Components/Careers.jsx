@@ -3,6 +3,7 @@ import "./Careers.css";
 import Footer from "./Footer";
 import 'aos/dist/aos.css';
 import AOS from "aos";
+import { Link } from "react-router-dom";
 //import images
 import teamwork from "/src/imges/teamwork.png";
 import securedfuture from "/src/imges/securedfuture.png";
@@ -33,13 +34,22 @@ function Careers() {
   }, []); 
   return (
     <>
-      <div className="bg-white">
+      <div className=" body1 bg-white">
+      <div className="insidenav bg-dark d-flex align-items-center justify-content-center flex-column text-center text-white">
+          <h1>Careers</h1>
+          <div className="afterhead d-flex justify-content-center">
+           <Link to={'/'}><div className="tohome">Home</div> </Link> 
+            <span className="gap">/</span>
+            <div className="stay">Careers</div>
+          </div>
+        </div>
+
         <div className="benefits">
           <div data-aos="fade-right"  className="title1">
             BENEFITS <br />
             <h2>Why you Should Join Our Awesome Team</h2>
           </div>
-          <div className="contents pb-lg-5">
+          <div className="contents  pb-lg-5">
             <div data-aos="zoom-in" className="uses">
               <div data-aos="flip-left">
                 <img src={teamwork} alt="#" />

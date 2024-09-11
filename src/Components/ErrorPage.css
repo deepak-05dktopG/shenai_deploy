@@ -1,0 +1,26 @@
+.gif{
+height: 40vh;
+flex-shrink: 0;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.gif>img{
+    width: fit-content;
+    height: fit-content;
+}
+@media screen and (max-width: 700px) {
+    .gif{
+        height: 40vh;
+        flex-shrink: 0;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+        .gif>img{
+            width: 50%;
+            height: fit-content;
+        }
+}

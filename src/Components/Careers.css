@@ -12,6 +12,7 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   flex: 2;
+  overflow: hidden;
 }
 .title1 {
   flex: 1;

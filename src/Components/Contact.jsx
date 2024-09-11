@@ -1,28 +1,29 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./Contact.css";
 import Footer from "./Footer";
-import 'aos/dist/aos.css';
+import "aos/dist/aos.css";
 import AOS from "aos";
+import { Link } from "react-router-dom";
 function Contact() {
-  
   useEffect(() => {
     AOS.init({
       duration: 1000, // Global duration for all animations
-      offset: 0,    // Global offset for all animations
-      anchorPlacement: 'bottom-bottom', // Global anchor placement for all animations
-    });  }, []);
+      offset: 0, // Global offset for all animations
+      anchorPlacement: "bottom-bottom", // Global anchor placement for all animations
+    });
+  }, []);
   useEffect(() => {
     // Select all elements with data-aos attribute
-    const aosElements = document.querySelectorAll('[data-aos]');
-    
+    const aosElements = document.querySelectorAll("[data-aos]");
+
     // Loop through and add a class to the parent
     aosElements.forEach((element) => {
       const parent = element.parentElement;
       if (parent) {
-        parent.classList.add('delete_extra_space');
+        parent.classList.add("delete_extra_space");
       }
     });
-  }, []); 
+  }, []);
   const [result, setResult] = useState("");
 
   /* const handleSubmit = (event) => {
@@ -54,7 +55,17 @@ function Contact() {
   };*/
 
   return (
-    <div>
+    <div className="body1">
+
+      <div className="insidenav bg-dark d-flex align-items-center justify-content-center flex-column text-center text-white">
+        <h1>Contact</h1>
+        <div className="afterhead d-flex justify-content-center">
+        <Link to={'/'}> <div className="tohome">Home</div> </Link> 
+          <span className="gap">/</span>
+          <div className="stay">Contact</div>
+        </div>
+      </div>
+
       <div className="contact">
         <div className="headings text-center">
           <p data-aos="fade-down">\Get In Touch\</p>
@@ -89,14 +100,12 @@ function Contact() {
               className="form-control"
               type="number"
               id="phone"
-              name="phone"
-              minlength="10"
-              maxlength="14"
+              name="tel"
               placeholder="Phone"
               required
             />
             <input
-            data-aos-delay="400"
+              data-aos-delay="400"
               data-aos="fade-right"
               className="form-control"
               type="email"
@@ -106,7 +115,7 @@ function Contact() {
               required
             />
             <textarea
-            data-aos-delay="550"
+              data-aos-delay="550"
               data-aos="fade-right"
               className="form-control"
               name="message"
@@ -115,7 +124,7 @@ function Contact() {
               required
             ></textarea>
             <button
-            data-aos-delay="700"
+              data-aos-delay="700"
               data-aos="fade-left"
               className="btn btn-outline-dark"
               type="submit"
@@ -124,15 +133,30 @@ function Contact() {
             </button>
           </form>
 
-          <div className="sociallinks">
-            <a  data-aos="zoom-out" href="https://www.facebook.com/">
-              <i data-aos="zoom-in" class="fa-brands fa-linkedin pb-lg-5"></i> Shenai Private solutions
+          <div className="sociallinks ">
+            <a
+              className="overflow-hidden"
+              data-aos="zoom-out"
+              href="https://www.linkedin.com/in/shenai-private-solutions-54236231a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+            >
+              <i data-aos="zoom-in" class="fa-brands fa-linkedin pb-lg-5"></i>{" "}
+              Shenai Private solutions
             </a>
-            <a  data-aos="zoom-out" href="https://www.facebook.com/">
-              <i  data-aos="zoom-in" class="fa-brands fa-instagram pb-lg-5"></i>Shenai_off
+            <a
+              className="overflow-hidden"
+              data-aos="zoom-out"
+              href="https://www.instagram.com/shenai_off?igsh=MTF0cm90dnZ4dmM2bw%3D%3D&utm_source=qr"
+            >
+              <i data-aos="zoom-in" class="fa-brands fa-instagram pb-lg-5"></i>
+              Shenai_off
             </a>
-            <a data-aos="zoom-out" href="https://www.facebook.com/">
-              <i  data-aos="zoom-in" class="fa-brands fa-facebook pb-lg-5"></i>Shen ai
+            <a
+              className="overflow-hidden"
+              data-aos="zoom-out"
+              href="https://www.facebook.com/share/C145pZPZWndVKfz3/?mibextid=LQQJ4d"
+            >
+              <i data-aos="zoom-in" class="fa-brands fa-facebook pb-lg-5"></i>
+              Shen ai
             </a>
           </div>
         </div>

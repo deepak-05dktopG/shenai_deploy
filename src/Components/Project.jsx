@@ -30,8 +30,18 @@ function Project() {
     });
   }, []); 
   return (
-    <div className=" bg-white">
+    <div className="body1 bg-white">
+      <div className="insidenav bg-dark d-flex align-items-center justify-content-center flex-column text-center text-white">
+         <h1>Project</h1> 
+          <div className="afterhead d-flex justify-content-center">
+          <Link to={'/'}>  <div className="tohome">Home</div></Link>
+            <span className="gap">/</span>
+            <div className="stay">Project</div>
+          </div>
+        </div>
+
       <div className="projects container pb-1 gap-3">
+
         <div data-aos="fade-right"  className="project1">
         <Link to="signlang">
           <div data-aos="zoom-in" >

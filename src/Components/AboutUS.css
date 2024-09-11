@@ -80,10 +80,10 @@
 /*Responsiveness for tab*/
 @media (min-width: 701px) and (max-width: 1024px) {
   .about-us {
-    display: flex;
+    display: block;
     flex-wrap: wrap;
-    padding: 50px 0px;
-    justify-content: space-between;
+    padding: 0px 0px;
+    justify-content:center;
     align-items: center;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
@@ -92,11 +92,33 @@
     word-spacing: 3px;
   }
   .about-us-img > img {
-    margin: 0px 10px;
-    width: 525px;
-    height: 390px;
+    padding: 0px;
+    margin: 0px;
+    width:100%;
+    height: ;
+  }
+  .about-us-img{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    background-color: #3F3F3F;
+    height: 290px;
   }
   .about-us-content {
-    margin: 0px 10px;
+    position:relative;
+    right: 18px;
   }
+  .about-us-content>h1{
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    color:#3F3F3F;
+  }
+  .shenai-private-software{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    color:#3F3F3F;
+  }
+  
 }

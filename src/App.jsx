@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar";
 import 'aos/dist/aos.css';
 import AOS from "aos";
 import Axios from "axios";
+import ErrorPage from "./Components/ErrorPage";
 function App() {
 
 
@@ -48,7 +49,7 @@ function App() {
 
   return (
     <div>
-      <Navbar />
+      <Navbar/>
     </div>
   );
 }

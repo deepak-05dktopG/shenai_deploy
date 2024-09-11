@@ -2,13 +2,42 @@
   margin: 0;
   padding: 0;
 }
-.delete_extra_space{
+
+.insidenav{
+  height: 270px;
+}
+.insidenav>h1 {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 58px;
+}
+.gap{
+  padding: 0px 5px;
+}
+.gap,.tohome,.stay{  
+color: var(--White, #FFF);
+text-align: justify;
+font-family: Raleway;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px;
+}
+.tohome:hover{
+  color:rgb(255, 162, 0);
+}
+
+.delete_extra_space {
   overflow-x: hidden;
   scrollbar-width: none;
 }
 .body1 {
   background-color: #f6f6f6;
   height: fit-content;
+
 }
 .aboutUs {
   font-size: 24px;
@@ -28,7 +57,6 @@
   height: fit-content;
   align-items: center;
   font-family: "Raleway", sans-serif;
-  padding-top: 80px;
 }
 .content {
   line-height: 36px;
@@ -52,7 +80,7 @@
   transition: all 0.5s ease;
 }
 .cc:hover {
-    transition: all 0.5s ease;
+  transition: all 0.5s ease;
   box-shadow: 0px 0px 4px 1px rgba(0, 1, 123, 0.75);
   -webkit-box-shadow: 0px 0px 4px 1px rgba(0, 1, 123, 0.75);
   -moz-box-shadow: 0px 0px 4px 1px rgba(0, 1, 123, 0.75);
@@ -70,6 +98,40 @@
   /*responsive for mobile*/
   .body1 {
     height: fit-content;
+    padding-top: 80px;
+  }
+  .insidenav{
+    height: 200px;
+  }
+  .insidenav>h1 {
+    color: #fff;
+    font-family: Raleway;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+  }
+    .gap{
+      padding: 0px 5px;
+    }
+    .gap,.tohome,.stay{  
+    color: #FFF;
+    text-align: justify;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    }
+
+  .afterhead{
+    color: var(--White, #FFF);
+  text-align: justify;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
   }
   .aboutus {
     display: flex;

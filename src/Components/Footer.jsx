@@ -56,21 +56,21 @@ function Footer() {
     data-aos-delay="120"
     data-aos-easing="ease-in-out"
     data-aos-once="false" >
-               <a className="linkedin" href="#"> <i class="fa-brands fa-linkedin"></i></a>
+               <a className="linkedin" href="https://www.linkedin.com/in/shenai-private-solutions-54236231a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"> <i class="fa-brands fa-linkedin"></i></a>
               </div>
               <div data-aos="flip-right"
     data-aos-offset="0"
     data-aos-delay="160"
     data-aos-easing="ease-in-out"
     data-aos-once="false" >
-                <a className="insta" href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a className="insta" href="https://www.instagram.com/shenai_off?igsh=MTF0cm90dnZ4dmM2bw%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
               </div>
               <div data-aos="flip-right"
     data-aos-offset="0"
     data-aos-delay="200"
     data-aos-easing="ease-in-out"
     data-aos-once="false" >
-                <a className="facebook" href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a className="facebook" href="https://www.facebook.com/share/C145pZPZWndVKfz3/?mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i></a>
               </div>
             </div>
           </div>
