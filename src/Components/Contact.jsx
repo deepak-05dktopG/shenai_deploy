@@ -15,7 +15,6 @@ function Contact() {
   useEffect(() => {
     // Select all elements with data-aos attribute
     const aosElements = document.querySelectorAll("[data-aos]");
-
     // Loop through and add a class to the parent
     aosElements.forEach((element) => {
       const parent = element.parentElement;
@@ -56,11 +55,13 @@ function Contact() {
 
   return (
     <div className="body1">
-
       <div className="insidenav bg-dark d-flex align-items-center justify-content-center flex-column text-center text-white">
         <h1>Contact</h1>
         <div className="afterhead d-flex justify-content-center">
-        <Link to={'/'}> <div className="tohome">Home</div> </Link> 
+          <Link to={"/"}>
+            {" "}
+            <div className="tohome">Home</div>{" "}
+          </Link>
           <span className="gap">/</span>
           <div className="stay">Contact</div>
         </div>
@@ -87,10 +88,11 @@ function Contact() {
             <input
               data-aos="fade-right"
               data-aos-delay="100"
-              className="form-control valid "
+              className="form-control "
               type="text"
               id="name"
               name="name"
+              style={{backgroundColor : ' #f2f2f2'}}
               placeholder="Name"
               required
             />
@@ -98,17 +100,21 @@ function Contact() {
               data-aos-delay="250"
               data-aos="fade-right"
               className="form-control"
-              type="number"
+              style={{backgroundColor : ' #f2f2f2'}}
+              type="tel"
               id="phone"
               name="tel"
+              pattern="[0-9]{10}"
               placeholder="Phone"
               required
             />
+
             <input
               data-aos-delay="400"
               data-aos="fade-right"
               className="form-control"
               type="email"
+              style={{backgroundColor : ' #f2f2f2'}}
               id="email"
               name="email"
               placeholder="Email"
@@ -119,6 +125,7 @@ function Contact() {
               data-aos="fade-right"
               className="form-control"
               name="message"
+              style={{backgroundColor : ' #f2f2f2'}}
               id="message"
               placeholder="Your Message"
               required
