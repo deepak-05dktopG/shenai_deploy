@@ -45,7 +45,7 @@ function Project() {
         <div data-aos="fade-right"  className="project1">
         <Link to="signlang">
           <div data-aos="zoom-in" >
-            <img  src={img1} alt="#" />
+            <img  src={img1} alt="Computer" />
           </div>
           <p data-aos="fade-left"  className="title0">Sign language recognition</p>
           <div className="d-flex gap-2">
@@ -60,7 +60,7 @@ function Project() {
         <div data-aos="fade-left"  className="project2">
         <Link to="servingrobot">
           <div data-aos="zoom-in" >
-            <img src={img2} alt="#" />
+            <img src={img2} alt="Serving Robot" />
           </div>
           <p data-aos="fade-left"  className="title0">Serving Robot</p>
           <div className="d-flex gap-2">

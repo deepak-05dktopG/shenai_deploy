@@ -59,8 +59,7 @@ function Contact() {
         <h1>Contact</h1>
         <div className="afterhead d-flex justify-content-center">
           <Link to={"/"}>
-            {" "}
-            <div className="tohome">Home</div>{" "}
+            <div className="tohome">Home</div>
           </Link>
           <span className="gap">/</span>
           <div className="stay">Contact</div>
@@ -144,7 +143,7 @@ function Contact() {
             <a
               className="overflow-hidden"
               data-aos="zoom-out"
-              href="https://www.linkedin.com/in/shenai-private-solutions-54236231a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+              href="https://www.linkedin.com/company/shenai-private-solutions"
             >
               <i data-aos="zoom-in" class="fa-brands fa-linkedin pb-lg-5"></i>{" "}
               Shenai Private solutions

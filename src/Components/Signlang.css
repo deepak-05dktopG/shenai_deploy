@@ -71,7 +71,6 @@
 }
 .signs1>img{
   width:20%;
-  height: ;
 }
 
 /* Responsiveness for mobile */
@@ -148,7 +147,10 @@
     gap: 10px;
   }
   .signs1>img{
-    width: 100%;
+    margin: 0;
+    padding: 0;
+    width: 55%;
+    height: 30vh;
   }
 }
 

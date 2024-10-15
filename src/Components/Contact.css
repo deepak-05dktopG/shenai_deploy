@@ -44,7 +44,7 @@ textarea{
   height: 20vh;
 }
 form > button {
-  width: 20%;
+  width: fit-content;
   height: 50px;
 }
 .sociallinks {

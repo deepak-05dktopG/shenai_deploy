@@ -52,7 +52,7 @@ function Careers() {
           <div className="contents  pb-lg-5">
             <div data-aos="zoom-in" className="uses">
               <div data-aos="flip-left">
-                <img src={teamwork} alt="#" />
+                <img src={teamwork} alt="Team Work" />
               </div>
               <div  data-aos="fade-right" className="heading">Team work</div>
               <div  data-aos="fade-right" className="text">
@@ -62,7 +62,7 @@ function Careers() {
             </div>
             <div data-aos="zoom-in" className="uses">
               <div  data-aos="flip-left">
-                <img src={securedfuture} alt="#" />
+                <img src={securedfuture} alt="Secured Future" />
               </div>
               <div  data-aos="fade-right" className="heading">Secured Future</div>
               <div  data-aos="fade-right" className="text">
@@ -72,7 +72,7 @@ function Careers() {
             </div>
             <div data-aos="zoom-in" className="uses">
               <div  data-aos="flip-left">
-                <img src={learning} alt="#" />
+                <img src={learning} alt="Learning" />
               </div>
               <div  data-aos="fade-right" className="heading">Learning Opportunity</div>
               <div  data-aos="fade-right" className="text">
@@ -82,7 +82,7 @@ function Careers() {
             </div>
             <div data-aos="zoom-in" className="uses">
               <div  data-aos="flip-left">
-                <img src={upgrade} alt="#" />
+                <img src={upgrade} alt="Upgrade" />
               </div>
               <div  data-aos="fade-right" className="heading">Upgrate Skills</div>
               <div  data-aos="fade-right" className="text">
@@ -96,7 +96,7 @@ function Careers() {
           <h2  data-aos="fade-right">Send your resume to</h2>
           <div data-aos="zoom-in-right" className="email ">
             <a href="mailto:thamaraistartupindia@gmail.com" className="fw-bold">
-              <img src={mail} alt="#" />
+              <img src={mail} alt="E-Mail" />
               thamaraistartupindia@gmail.com
             </a>
           </div>
@@ -107,7 +107,7 @@ function Careers() {
               href="tel:+91 9384155432"
               className="fw-bold"
             >
-              <img src={call} alt="#" />
+              <img src={call} alt="Phone" />
               +91 9384155432
             </a>
           </div>

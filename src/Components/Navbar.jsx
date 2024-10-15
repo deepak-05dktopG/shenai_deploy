@@ -8,6 +8,8 @@ import {
 } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSquareInstagram } from '@fortawesome/free-brands-svg-icons';
 //        image import
 import logo from "/src/imges/ShenAI_Logo-removebg-preview.png";
 
@@ -162,15 +164,15 @@ function Navbar() {
                     <div data-bs-dismiss="offcanvas">Contact</div>{" "}
                   </NavLink>
                 </li>
-                <li className="d-flex justify-content-around border-bottom-0">
-                  <a href="https://www.facebook.com/share/C145pZPZWndVKfz3/?mibextid=LQQJ4d">
-                    <i class="fa-brands fa-facebook "></i>
-                  </a>
-                  <a href="https://www.linkedin.com/in/shenai-private-solutions-54236231a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
-                    <i class="fa-brands fa-linkedin"></i>
+                <li className="navimages d-flex justify-content-around border-bottom-0"> 
+                  <a  href="https://www.linkedin.com/company/shenai-private-solutions">
+                    <i className="fa-brands fa-linkedin"></i>
                   </a>
                   <a href="https://www.instagram.com/shenai_off?igsh=MTF0cm90dnZ4dmM2bw%3D%3D&utm_source=qr">
-                    <i class="fa-brands fa-instagram"></i>
+                    <i className="fa-brands fa-instagram "></i>
+                  </a>
+                  <a href="https://www.facebook.com/share/C145pZPZWndVKfz3/?mibextid=LQQJ4d">
+                    <i className="fa-brands fa-facebook "></i>
                   </a>
                 </li>
               </ul>

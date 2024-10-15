@@ -136,7 +136,7 @@ line-height: 20px;
   .aboutus {
     display: flex;
     flex-direction: column;
-    height: 135vh;
+    height: fit-content;
     align-items: center;
     font-family: "Raleway", sans-serif;
   }

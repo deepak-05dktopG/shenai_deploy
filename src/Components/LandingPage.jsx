@@ -16,15 +16,13 @@ import image7 from "/src/imges/prawin.jpg";
 import image8 from "/src/imges/nandhini.jpg";
 import image9 from "/src/imges/priya.jpg";
 import image10 from "/src/imges/tharika.jpg";
+import introvideo from "/src/imges/introvideo.mp4";
 
 import wallpaper from "/src/imges/wallpaper.png";
 
 import image11 from "/src/imges/landingpagewallpaper.jpg";
 
 function LandingPage() {
-
-  
-
   return (
     <div>
       <div
@@ -33,38 +31,34 @@ function LandingPage() {
           color: "white",
         }}
       >
-        <div className="landingpage "></div>
-
+        <div className="landingpage"></div>
         <div className="">
           <div className="software-shape">
+            <video  autoPlay loop muted type="video/mp4" src={introvideo}></video>
             <p data-aos="fade-down" data-aos-delay="400" class="lets-the">
-              <small > let's the </small>
+              <small> let's the </small>
               <br />
               <small> innovation speaks!</small>
             </p>
           </div>
-
-          <div data-aos="fade-down"  data-aos-offset="0" className="new"></div>
         </div>
       </div>
 
       <div data-aos="zoom-in" className="body bg-white">
         {/* This is a image scroll*/}
-        <div className="">
-          <marquee behavior="alternate" direction="">
-            <div className="animate gap-5">
-              <img src={image1} alt="#" />
-              <img src={image2} alt="#" />
-              <img src={image3} alt="#" />
-              <img src={image4} alt="#" />
-              <img src={image5} alt="#" />
-              <img src={image1} alt="#" />
-              <img src={image2} alt="#" />
-              <img src={image3} alt="#" />
-              <img src={image4} alt="#" />
-              <img src={image5} alt="#" />
-            </div>
-          </marquee>
+        <div className=" overflow-hidden mt-0 p-0">
+          <div className="animate gap-5 ">
+            <img src={image1} alt="hadoop" loading="lazy" />
+            <img src={image2} alt="matlab" loading="lazy" />
+            <img src={image3} alt="tableau" loading="lazy" />
+            <img src={image4} alt="tensorflow" loading="lazy" />
+            <img src={image5} alt="pytorch" loading="lazy" />
+            <img src={image1} alt="hadoop" loading="lazy" />
+            <img src={image2} alt="matlab" loading="lazy" />
+            <img src={image3} alt="tableau" loading="lazy" />
+            <img src={image4} alt="tensorflow" loading="lazy" />
+            <img src={image5} alt="pytarch" loading="lazy" />
+          </div>
         </div>
 
         {/* This is About us section*/}
@@ -80,7 +74,7 @@ function LandingPage() {
             <p>do for you</p>
           </div>
           <span data-aos="fade-right" className="whatwecando2">
-            <Link  to="project">
+            <Link to="project">
               Projects <i class="fa-solid fa-arrow-right"></i>
             </Link>
             <hr />
@@ -100,7 +94,9 @@ function LandingPage() {
         </div>
 
         <div className="feedback">
-          <p data-aos="zoom-in-down" className="heading">FEEDBACK</p>
+          <p data-aos="zoom-in-down" className="heading">
+            FEEDBACK
+          </p>
           <div className="students">
             <p className="m-0 p-0 d-flex justify-content-center">
               <button
@@ -112,7 +108,7 @@ function LandingPage() {
               >
                 <div className="title ">
                   <div data-aos="flip-right" className="img">
-                    <img src={image6} alt="#" />
+                    <img src={image6} alt="Customer" loading="lazy" />
                   </div>
                   <div data-aos="fade-up-right" className="name">
                     Deepakkumar
@@ -123,7 +119,7 @@ function LandingPage() {
                 </div>
               </button>
             </p>
-            <div style={{ height: "" }}>
+            <div>
               <div
                 class="collapse collapse-horizontal "
                 id="collapseWidthExample4"
@@ -151,7 +147,7 @@ function LandingPage() {
               >
                 <div className="title ">
                   <div data-aos="flip-left" className="img">
-                    <img src={image7} alt="#" />
+                    <img src={image7} alt="Customer" loading="lazy" />
                   </div>
                   <div data-aos="fade-up-left" className="name">
                     Prawinkumar
@@ -162,7 +158,7 @@ function LandingPage() {
                 </div>
               </button>
             </p>
-            <div style={{ height: "" }}>
+            <div>
               <div
                 class="collapse collapse-horizontal "
                 id="collapseWidthExample3"
@@ -187,7 +183,7 @@ function LandingPage() {
               >
                 <div className="title">
                   <div data-aos="flip-right" className="img">
-                    <img src={image9} alt="#" />
+                    <img src={image9} alt="Customer" loading="lazy" />
                   </div>
                   <div data-aos="fade-up-right" className="name">
                     Priyadharshini.R
@@ -198,7 +194,7 @@ function LandingPage() {
                 </div>
               </button>
             </p>
-            <div style={{ height: "" }}>
+            <div>
               <div
                 class="collapse collapse-horizontal "
                 id="collapseWidthExample2"
@@ -223,7 +219,7 @@ function LandingPage() {
               >
                 <div className="title ">
                   <div data-aos="flip-left" className="img">
-                    <img src={image8} alt="#" />
+                    <img src={image8} alt="Customer" loading="lazy" />
                   </div>
                   <div data-aos="fade-up-left" className="name">
                     Nandhini.S.M
@@ -234,7 +230,7 @@ function LandingPage() {
                 </div>
               </button>
             </p>
-            <div style={{ height: "" }}>
+            <div>
               <div
                 class="collapse collapse-horizontal "
                 id="collapseWidthExample1"
@@ -259,7 +255,7 @@ function LandingPage() {
               >
                 <div className="title">
                   <div data-aos="flip-right" className="img">
-                    <img src={image10} alt="#" />
+                    <img src={image10} alt="Customer" loading="lazy" />
                   </div>
                   <div data-aos="fade-up-right" className="name">
                     Tharikaa.L.S
@@ -270,7 +266,7 @@ function LandingPage() {
                 </div>
               </button>
             </p>
-            <div style={{ height: "" }}>
+            <div>
               <div
                 class="collapse collapse-horizontal "
                 id="collapseWidthExample"

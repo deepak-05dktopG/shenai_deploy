@@ -48,7 +48,7 @@ function About() {
         </div>
         <div className="aboutus">
           <div data-aos="zoom-in-right" className="image1">
-            <img src={aboutimg} alt="#" />
+            <img src={aboutimg} alt="Smart Work" />
           </div>
           <div className="p-3">
             <p data-aos="fade-left" className="aboutUs">
@@ -69,7 +69,7 @@ function About() {
               className="cc d-flex gap-4 mt-5 align-items-center bg-white p-3 rounded"
             >
               <div className="">
-                <img src={customercare} alt="#" />
+                <img src={customercare} alt="Customer Care" />
               </div>
               <h4 className="gipa">
                 Get Instant Professsional Advice
@@ -87,7 +87,7 @@ function About() {
         <div className="founder overflow-hidden">
           <h1 data-aos="fade-right">Our CEO & Founder</h1>
           <div data-aos="zoom-in-up" className="teamimg text-center">
-            <img src={senthamarai} alt="#" />
+            <img src={senthamarai} alt="Founder" />
           </div>
           <div data-aos="fade-left" className="names">
             Mrs.Senthamarai.M
@@ -104,7 +104,7 @@ function About() {
           <div className=" directorsdetail ">
             <div className="text-center overflow-hidden">
               <div data-aos="zoom-in-up" className="teamimg">
-                <img src={sandeep} alt="#" />
+                <img src={sandeep} alt="Director" />
               </div>
               <div data-aos="fade-left" className="names">
                 Mr.Sandeep.S.D
@@ -115,7 +115,7 @@ function About() {
             </div>
             <div className="text-center overflow-hidden">
               <div data-aos="zoom-in-up" className="teamimg">
-                <img src={ritik} alt="#" />
+                <img src={ritik} alt="Director" />
               </div>
               <div data-aos="fade-left" className="names">
                 Mr.Rithik.P
@@ -126,7 +126,7 @@ function About() {
             </div>
             <div className="text-center overflow-hidden">
               <div data-aos="zoom-in-up" className="teamimg">
-                <img src={sudhakar} alt="#" />
+                <img src={sudhakar} alt="Director" />
               </div>
               <div data-aos="fade-left" className="names">
                 Mr.Sudhaker.D
@@ -137,7 +137,7 @@ function About() {
             </div>
             <div className="text-center overflow-hidden">
               <div data-aos="zoom-in-up" className="teamimg">
-                <img src={sreenithin} alt="#" />
+                <img src={sreenithin} alt="Director" />
               </div>
               <div data-aos="fade-left" className="names">
                 Mr.ShreeNithin.P

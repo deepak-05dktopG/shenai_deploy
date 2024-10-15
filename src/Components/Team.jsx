@@ -49,7 +49,7 @@ function Team() {
         <div className="founder overflow-hidden">
           <h1 data-aos="fade-right">Our CEO & Founder</h1>
           <div data-aos="zoom-in-up" className="teamimg text-center">
-            <img src={senthamarai} alt="#" />
+            <img src={senthamarai} alt="Founder"/>
           </div>
           <div data-aos="fade-left" className="names">
             Mrs.Senthamarai.M
@@ -66,7 +66,7 @@ function Team() {
           <div className=" directorsdetail ">
             <div className="text-center overflow-hidden">
               <div data-aos="zoom-in-up" className="teamimg">
-                <img src={sandeep} alt="#" />
+                <img src={sandeep} alt="Director" />
               </div>
               <div data-aos="fade-left" className="names">
                 Mr.Sandeep.S.D
@@ -77,7 +77,7 @@ function Team() {
             </div>
             <div className="text-center overflow-hidden">
               <div data-aos="zoom-in-up" className="teamimg">
-                <img src={ritik} alt="#" />
+                <img src={ritik} alt="Director" />
               </div>
               <div data-aos="fade-left" className="names">
                 Mr.Rithik.P
@@ -88,7 +88,7 @@ function Team() {
             </div>
             <div className="text-center overflow-hidden">
               <div data-aos="zoom-in-up" className="teamimg">
-                <img src={sudhakar} alt="#" />
+                <img src={sudhakar} alt="Director" />
               </div>
               <div data-aos="fade-left" className="names">
                 Mr.Sudhaker.D
@@ -99,7 +99,7 @@ function Team() {
             </div>
             <div className="text-center overflow-hidden">
               <div data-aos="zoom-in-up" className="teamimg">
-                <img src={sreenithin} alt="#" />
+                <img src={sreenithin} alt="Director" />
               </div>
               <div data-aos="fade-left" className="names">
                 Mr.ShreeNithin.P

@@ -220,10 +220,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 20px 40px;
+    padding: 20px 20px;
   }
   .bodycontent > .project0 {
-    width: 40%;
-    padding: 20px 20px;
+    width: 100%;
+    padding: 20px20px;
   }
 }

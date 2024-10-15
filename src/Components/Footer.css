@@ -92,7 +92,7 @@ a {
 }
 
 /* responsivness for mobile */
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 700px) {
     .footer {
         display: flex;
         flex-direction: column;
@@ -169,7 +169,7 @@ a {
       }
 }
 
-@media (min-width: 770px) and (max-width: 1024px) {
+@media (min-width: 701px) and (max-width: 1024px) {
   .footer {
     display: flex;
     height:fit-content;

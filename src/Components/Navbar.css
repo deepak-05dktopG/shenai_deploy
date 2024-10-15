@@ -95,7 +95,9 @@
   .offcanvas-header {
     padding: 3px 20px 0px 4px;
   }
-
+  .navimages>a>i{
+    font-size: 35px;
+  }
   li {
     padding-top: 20px;
     border-bottom: 1px solid rgb(233, 231, 231);
@@ -136,6 +138,6 @@
     gap: 15px;
   }
   .logo > img {
-    width: 80px;
+    width: 50px;
   }
 }

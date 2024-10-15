@@ -9,6 +9,8 @@ import robot from "/src/imges/robot.png";
 import robot1 from "/src/imges/robot1.png";
 import robot2 from "/src/imges/robot2.png";
 import robot3 from "/src/imges/robot3.png";
+import robot4 from "/src/imges/robot4.jpeg";
+import robotvideo from "/src/imges/robotvideo.mp4"
 
 function Servingrobot() {
   
@@ -39,7 +41,7 @@ function Servingrobot() {
             <div data-aos="fade-right" data-aos-delay="200" className="robot">ROBOT</div>
           </div>
           <div data-aos="zoom-in" className="whitebox">
-            <img className="whitebox" src={robot} alt="#" />
+            <img className="whitebox" src={robot} alt="Robot" />
           </div>
         </div>
         <div className="contentsofsr">
@@ -131,10 +133,12 @@ function Servingrobot() {
               <li data-aos="fade-left" data-aos-delay="450">Ease of Use</li>
             </ol>
           </div>
-          <div className="robotimages d-flex flex-wrap justify-content-around">
-            <img data-aos="zoom-out-up" src={robot1} alt="#" />
-            <img data-aos="zoom-out-up" src={robot2} alt="#" />
-            <img data-aos="zoom-out-up" src={robot3} alt="#" />
+          <div className="robotimages d-flex flex-wrap  justify-content-around">
+            <img className="border bg-white rounded-5" data-aos="zoom-in" src={robot1} alt="Serving Robot" />
+            <img className="border bg-white rounded-5" data-aos="zoom-in" src={robot3} alt="Serving Robot" />
+            <img className="border bg-white rounded-5" data-aos="zoom-in" width={250} src={robot4} alt="Serving Robot" />
+            <video  autoPlay loop muted  className="border w-75 rounded-4 mt-3" src={robotvideo}></video>
+
           </div>
         </div>
       </div>

@@ -41,7 +41,7 @@ function Signlang() {
         <div className="signlang ">
             <div className="signlangrec">
                 <div  data-aos="zoom-in" className="signs">
-                    <img src={signlanguages} alt="#" />
+                    <img src={signlanguages} alt="Hand Signs" />
                 </div>
                 <div data-aos="zoom-out" className="topic">SIGN LANGUAGE RECOGNITION</div>
             </div>
@@ -60,10 +60,10 @@ function Signlang() {
                 S0,We are looking some Cloud GPU providers like GCP, AWS, Paperspace, Google cloud platform, etc.. .In this cloud GPU's enable parallel processing of sign language data, allowing for faster recognition by distributing the computational load across multiple GPU coresClous GPU's offer the computational power required for real-time sign language recognition, ensuring immediate and seamless communication for users. After adding some functions in our model and then the model is deploy in the android studio. This project is mainly focused on the basement idea of recognizing the sentences of Indian Sign Language which are existingly trained by ourself.
             </div>
             <div className='signs1 '>
-                <img data-aos="flip-right" src={signlang1} alt="#" />
-                <img data-aos="flip-right" src={signlang2} alt="#" />
-                <img data-aos="flip-right" src={signlang3} alt="#" />
-                <img data-aos="flip-right" src={signlang4} alt="#" />
+                <img data-aos="flip-right" src={signlang1} alt="Sign Language" />
+                <img data-aos="flip-right" src={signlang2} alt="Sign Language" />
+                <img data-aos="flip-right" src={signlang3} alt="Sign Language" />
+                <img data-aos="flip-right" src={signlang4} alt="Sign Language" />
             </div>
             <div data-aos="fade-left" className='line'></div>
         </div>

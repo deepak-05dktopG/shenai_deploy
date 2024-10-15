@@ -11,7 +11,7 @@ function App() {
 
   useEffect(() => {
     AOS.init({
-      duration: 1000, // Global duration for all animations
+      duration: 0, // Global duration for all animations
       offset: 0,    // Global offset for all animations
       anchorPlacement: 'bottom-bottom', // Global anchor placement for all animations
     });  }, []);

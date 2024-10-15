@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-//        image import
+//image import
 import logo from '/src/imges/ShenAI_Logo-removebg-preview.png'; 
 
 function Footer() {
@@ -13,13 +13,13 @@ function Footer() {
     data-aos-delay="0"
     data-aos-easing="ease-in-out"
     data-aos-once="false"  className="image">
-            <img src={logo} alt="" />
+            <img src={logo} alt="Companylogo" />
           </div>
           <div data-aos="fade-up-right"
     data-aos-offset="0"
     data-aos-delay="0"
     data-aos-easing="ease-in-out"
-    data-aos-once="false"  className="content">
+    data-aos-once="false" className="content">
             Concept At ShenAI We specialize in creating tailored solutions for a
             diverse range of industries, including financial institutions,
             medical companies, tech firms, and government organizations.
@@ -56,7 +56,7 @@ function Footer() {
     data-aos-delay="120"
     data-aos-easing="ease-in-out"
     data-aos-once="false" >
-               <a className="linkedin" href="https://www.linkedin.com/in/shenai-private-solutions-54236231a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"> <i class="fa-brands fa-linkedin"></i></a>
+               <a className="linkedin" href="https://www.linkedin.com/company/shenai-private-solutions"> <i class="fa-brands fa-linkedin"></i></a>
               </div>
               <div data-aos="flip-right"
     data-aos-offset="0"
@@ -70,12 +70,14 @@ function Footer() {
     data-aos-delay="200"
     data-aos-easing="ease-in-out"
     data-aos-once="false" >
-                <a className="facebook" href="https://www.facebook.com/share/C145pZPZWndVKfz3/?mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i></a>
+                <a className="facebook"  href="https://www.facebook.com/share/C145pZPZWndVKfz3/?mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i></a>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      
     </div>
   );
 }

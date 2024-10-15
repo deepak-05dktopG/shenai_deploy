@@ -65,7 +65,7 @@ function Service() {
           <div className="visionandgoal">
             <div data-aos="fade-left" className="vision">
               <div className="image">
-                <img src={ourvision} alt="#" />
+                <img src={ourvision} alt="Our Vision" />
               </div>
               <div className="text">
                 <p className="heading">Our Vision</p>{" "}
@@ -76,7 +76,7 @@ function Service() {
             </div>
             <div data-aos="fade-right" className="goal">
               <div className="image">
-                <img src={ourgoal} alt="#" />
+                <img src={ourgoal} alt="Our Goal" />
               </div>
               <div className="text">
                 <p className="heading">Our Goal</p>{" "}
@@ -100,7 +100,7 @@ function Service() {
         <div className="bodycontent">
           <div data-aos="zoom-in" className="project0">
             <div data-aos="flip-right">
-              <img src={img1} alt="#" />
+              <img src={img1} alt="AI Computer" />
             </div>
             <p data-aos="fade-left" className="title0">
               Ai based Web browser
@@ -117,7 +117,7 @@ function Service() {
 
           <div data-aos="zoom-in" className="project0">
             <div data-aos="flip-right">
-              <img src={dsprojects} alt="#" />
+              <img src={dsprojects} alt="Data Science Projects" />
             </div>
             <p data-aos="fade-left" className="title0">
               Data science projects
@@ -135,7 +135,7 @@ function Service() {
 
           <div data-aos="zoom-in" className="project0">
             <div data-aos="flip-right">
-              <img src={img2} alt="#" />
+              <img src={img2} alt="Chatbot" />
             </div>
             <p data-aos="fade-left" className="title0">
               Chatbot
@@ -157,7 +157,7 @@ function Service() {
 
           <div data-aos="zoom-in" className="project0">
             <div data-aos="flip-right">
-              <img src={signlangrec} alt="#" />
+              <img src={signlangrec} alt="Sign Language" />
             </div>
             <Link to="signlang">
               <p data-aos="fade-left" className="title0">

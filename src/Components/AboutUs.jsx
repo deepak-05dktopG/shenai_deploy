@@ -9,13 +9,13 @@ function AboutUs() {
     <div>
       
       <div className="container about-us">
-            <div data-aos="zoom-in"
+            <div data-aos="zoom-out"
     data-aos-offset="0"
     data-aos-delay="200"
     data-aos-duration="5000"
     data-aos-once="false"
     className="about-us-img ">
-              <img src={about} alt="#" />
+              <img src={about} alt="Welcome" />
             </div>
             <div className="about-us-content ms-5">
               <h1 class="" data-aos="fade-right"
@@ -25,6 +25,7 @@ function AboutUs() {
     data-aos-easing="ease-in-out"
     data-aos-mirror="true"
     data-aos-once="false"
+    
     >About US</h1>
               <div data-aos="fade-right"
     data-aos-offset="0"

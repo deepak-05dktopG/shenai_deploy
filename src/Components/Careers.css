@@ -66,7 +66,7 @@
 }
 
 .uses>div>img{
-  width: 10%;
+  width: 20%;
   margin-top: 10px;
 }
 
@@ -88,7 +88,7 @@ a {
   font-size: large;
 }
 a > img {
-  padding-right: 30px;
+  padding-right:10px;
 }
 .email,
 .mobile {
