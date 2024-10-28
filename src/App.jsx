@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import Navbar from "./Components/Navbar";
+import Internfeedback from "./Components/Internfeedback";
+import Gallery from "./Components/Gallery";
 import 'aos/dist/aos.css';
 import AOS from "aos";
 import Axios from "axios";

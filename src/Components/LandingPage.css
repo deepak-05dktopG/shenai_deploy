@@ -65,6 +65,10 @@
   height: 390px;
 }
 .whatwedo {
+  background-image: url('C:\Users\91902\Desktop\frontend.projects\SheAiDeploy\shen_ai_web\src\imges\whatwedo.png');
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-color: rgb(48, 47, 47);
   display: flex;
   justify-content: space-between;
@@ -106,7 +110,9 @@
 }
 
 .ourprojects {
-  padding-bottom: 200px;
+  padding-bottom: 90px;
+  background: linear-gradient(45deg, #FFFFFF73, #9999998A);
+  font-family: "Raleway", sans-serif;
 }
 .ourprojects > p {
   margin: 0px;
@@ -263,11 +269,17 @@
     margin: 0px 30px;
     font-size: 22px;
   }
+  
+.ourprojects {
+  padding-bottom: 50px;
+  background: linear-gradient(45deg, #FFFFFF73, #9999998A);
+  font-family: "Raleway", sans-serif;
+}
   .ourprojects > p {
     margin: 0px;
     font-weight: 800;
     color: black;
-    font-size: large;
+    font-size: 30px;
     font-family: "Raleway", sans-serif;
   }
   .whatwecando2 > a {
@@ -432,7 +444,7 @@
   }
 
   .ourprojects {
-    padding-bottom: 200px;
+    padding-bottom: 80px;
   }
   .ourprojects > p {
     margin: 0px;

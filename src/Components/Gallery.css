@@ -1,0 +1,50 @@
+.gallery{
+}
+.carousel{
+    width: 60%;
+    height: 550px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 5px rgba(255, 183, 27, 0.65);
+    -webkit-box-shadow: 0px 0px 20px 5px rgba(247, 200, 73, 0.65);
+    -moz-box-shadow: 0px 0px 20px 5px rgba(229, 158, 6, 0.65);
+}
+.carousel-item>img{
+    border-radius: 10px;
+    width: 100%;
+    height: fit-content;
+    border-image: fill;
+}
+.img-fluid{
+    opacity: 90%;
+    width: 30%;
+    height: 300px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 700px) {
+    .gallery{
+    }
+    .carousel{
+        width: 80%;
+        height: fit-content;
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px 5px rgba(255, 183, 27, 0.65);
+        -webkit-box-shadow: 0px 0px 20px 5px rgba(247, 200, 73, 0.65);
+        -moz-box-shadow: 0px 0px 20px 5px rgba(229, 158, 6, 0.65);
+    }
+    .carousel-item>img{
+        border-radius: 10px;
+        width: 100%;
+        height: fit-content;
+        border-image: fill;
+    }
+    .img-fluid{
+        opacity: 90%;
+        width: 33%;
+        height: 130px;
+        margin-top: 10px;
+    }
+
+}
