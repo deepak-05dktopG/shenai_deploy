@@ -19,6 +19,7 @@ function Gallery() {
     <div className="gallery  py- d-flex justify-content-center align-items-center">
 
       <div className="position-relative d-flex flex-wrap justify-content-between z-1 w-100">
+        <h2 data-aos="fade-left" className="text-dark  position-absolute z-1 pt-lg-4 ps-lg-3 fw-bold bg-secondary pe-2" > <span className="text-danger fs-1">I</span> Gallery</h2>
           <img src={gallery2} alt="gallery1" className="img-fluid " />
           <img src={gallery1} alt="gallery1" className="img-fluid " />
           <img src={gallery3} alt="gallery1" className="img-fluid " />
@@ -27,7 +28,7 @@ function Gallery() {
           <img src={gallery6} alt="gallery1" className="img-fluid " />
       </div>
 
-      <div id="carouselExampleFade" class="carousel slide position-absolute z-2 carousel-fade"  data-bs-ride="carousel">
+      <div id="carouselExampleFade" class="carousel slide  position-absolute z-2 " data-aos="zoom-in" data-aos-delay="3000"  data-bs-ride="carousel">
         <div class="carousel-inner ">
           <div class="carousel-item active" data-bs-interval="2000">
             <img src={gallery4} class="d-block " alt="..." />
@@ -55,7 +56,7 @@ function Gallery() {
           </div>
         </div>
         <button
-          className="carousel-control-prev opacity-0  bg-dark w-50"
+          className="carousel-control-prev opacity-1 "
           type="button"
           data-bs-target="#carouselExampleFade"
           data-bs-slide="prev"
@@ -64,7 +65,7 @@ function Gallery() {
           <span class="visually-hidden">Previous</span>
         </button>
         <button
-          className="carousel-control-next opacity-0 bg-dark w-50"
+          className="carousel-control-next opacity-1"
           type="button"
           data-bs-target="#carouselExampleFade"
           data-bs-slide="next"

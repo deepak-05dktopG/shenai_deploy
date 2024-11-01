@@ -4,6 +4,7 @@ import AboutUS from "./AboutUs";
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
 import Gallery from "./Gallery";
+import Internfeedback from "./Internfeedback";
 
 //image import
 import image1 from "/src/imges/hadoop.jpg";
@@ -85,15 +86,16 @@ function LandingPage() {
             <hr />
           </span>
         </div>
-        <div className="ourprojects ">
-          <p className="text-center ">Our Upcoming Project</p>
-          <h2 className=" ms-lg-5 ms-2 mt-5">E-Commerce website:</h2>
-          <div className="mx-5 px-lg-5 px-0">This project focuses on developing a user-friendly e-commerce platform for a software company, aimed at selling digital products such as robots and also  software-based services.The design emphasizes responsiveness for mobile and desktop users, ensuring accessibility and a streamlined purchasing process for customers worldwide.</div><br />
-          <h2 className="ms-lg-5 ms-2">Speech to text:</h2>
-          <div className="mx-5 px-lg-5 px-0 ">This project converts spoken language into written text,enabling efficient documentation and analysis of conversations,lectures and audio recordings.This technology leverages AI and NLP to accurately capture spoken words,facilitating communication,accessibility
+        <div className="ourprojects">
+          <p data-aos="fade-down" className="text-center ">Our Upcoming Project</p>
+          <h2 data-aos="fade-right" className=" ms-lg-5 ms-2 mt-5">E-Commerce website:</h2>
+          <div data-aos="fade-right" className="mx-5 px-lg-5 px-0">This project focuses on developing a user-friendly e-commerce platform for a software company, aimed at selling digital products such as robots and also  software-based services.The design emphasizes responsiveness for mobile and desktop users, ensuring accessibility and a streamlined purchasing process for customers worldwide.</div><br />
+          <h2 data-aos="fade-right" className="ms-lg-5 ms-2">Speech to text:</h2>
+          <div data-aos="fade-right" className="mx-5 px-lg-5 px-0 ">This project converts spoken language into written text,enabling efficient documentation and analysis of conversations , lectures and audio recordings.This technology leverages AI and NLP to accurately capture spoken words,facilitating communication, accessibility
           and knowledge sharing.</div>
         
         </div>
+        <Internfeedback/>
         <Gallery/>
 
        

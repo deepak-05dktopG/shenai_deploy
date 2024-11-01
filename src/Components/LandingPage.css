@@ -33,6 +33,9 @@
   height: fit-content;
   margin: auto;
   animation: scroll-left 18s linear infinite;
+  width: fit-content;
+  overflow: hidden;
+  scroll-behavior: auto;
 }
 @keyframes scroll-left {
   0% { transform: translateX(0%); }
@@ -113,6 +116,7 @@
   padding-bottom: 90px;
   background: linear-gradient(45deg, #FFFFFF73, #9999998A);
   font-family: "Raleway", sans-serif;
+  margin: 0;
 }
 .ourprojects > p {
   margin: 0px;
@@ -213,7 +217,7 @@
     justify-content: space-evenly;
     align-items: center;
     height: fit-content;
-    padding: 0px 0px 0px 0px;
+    padding: 10px 10px 0px 0px;
   }
   .animate > img {
     width: 180px;
@@ -231,11 +235,11 @@
     align-items: center;
     height: fit-content;
     margin: auto;
-    animation: scroll-left 18s linear infinite;
+    animation: scroll-left 15s linear infinite;
   }
   @keyframes scroll-left {
     0% { transform: translateX(0%); }
-    50% { transform: translateX(-520%); }
+    50% { transform: translateX(-85%); }
     100% { transform: translateX(0%); }
   
   }

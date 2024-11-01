@@ -2,18 +2,18 @@
 }
 .carousel{
     width: 60%;
-    height: 550px;
+    height: 540px;
     overflow: hidden;
     border-radius: 10px;
-    box-shadow: 0px 0px 20px 5px rgba(255, 183, 27, 0.65);
-    -webkit-box-shadow: 0px 0px 20px 5px rgba(247, 200, 73, 0.65);
-    -moz-box-shadow: 0px 0px 20px 5px rgba(229, 158, 6, 0.65);
+
 }
 .carousel-item>img{
     border-radius: 10px;
     width: 100%;
     height: fit-content;
-    border-image: fill;
+    object-fit: cover;
+
+
 }
 .img-fluid{
     opacity: 90%;
@@ -27,13 +27,10 @@
     }
     .carousel{
         width: 80%;
-        height: fit-content;
+        height: 215px;
         overflow: hidden;
         border-radius: 10px;
-        box-shadow: 0px 0px 20px 5px rgba(255, 183, 27, 0.65);
-        -webkit-box-shadow: 0px 0px 20px 5px rgba(247, 200, 73, 0.65);
-        -moz-box-shadow: 0px 0px 20px 5px rgba(229, 158, 6, 0.65);
-    }
+       }
     .carousel-item>img{
         border-radius: 10px;
         width: 100%;
@@ -47,4 +44,31 @@
         margin-top: 10px;
     }
 
+}
+
+@media (min-width: 701px) and (max-width: 1024px) {
+    .gallery{
+    }
+    .carousel{
+        width: 60%;
+        height: 340px;
+        overflow: hidden;
+        border-radius: 10px;
+    
+    }
+    .carousel-item>img{
+        border-radius: 10px;
+        width: 100%;
+        height: fit-content;
+        object-fit: cover;
+    
+    
+    }
+    .img-fluid{
+        opacity: 90%;
+        width: 30%;
+        height: 300px;
+        margin-top: 10px;
+    }
+    
 }

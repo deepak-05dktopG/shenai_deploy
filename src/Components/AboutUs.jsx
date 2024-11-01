@@ -9,7 +9,7 @@ function AboutUs() {
     <div>
       
       <div className="container about-us">
-            <div data-aos="zoom-out"
+            <div data-aos="zoom-in"
     data-aos-offset="0"
     data-aos-delay="200"
     data-aos-duration="5000"
