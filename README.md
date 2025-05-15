@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://deepak-05dktopg.github.io/shenai_deploy/" target="_blank"><strong>🔗 GitHub Repo</strong></a>
+  <a href="https://deepak-05dktopg.github.io/shenai_deploy/" target="_blank"><strong>🔗 Live Project</strong></a>
 </p>
 
 <hr/>
